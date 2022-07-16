@@ -4,7 +4,6 @@ using UnityEngine;
 using Cinemachine;
 public class Player : MonoBehaviour
 {
-    private CinemachineVirtualCamera cam;
     private Rigidbody2D rb;
     public int selected;
     public float speed;
@@ -16,8 +15,6 @@ public class Player : MonoBehaviour
     {
         gun = GetComponent<GunClass>();
         rb = GetComponent<Rigidbody2D>();
-        cam = FindObjectOfType<CinemachineVirtualCamera>();
-        cam.Follow = transform;
     }
     private void Update()
     {
@@ -32,11 +29,15 @@ public class Player : MonoBehaviour
                 selected = 0;
             }
         }
+
         horizontal = Input.GetAxis("Horizontal");
-       vertical = Input.GetAxis("Vertical");
+        vertical = Input.GetAxis("Vertical");
+
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 lookDir = mousePos - rb.position;
+
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+
         rb.rotation = angle;
         
         switch (guns[selected])
@@ -75,9 +76,6 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if(horizontal != 0 || vertical != 0)
-        {
-            rb.velocity = new Vector2(horizontal * speed, vertical * speed);
-        }
+        rb.velocity = new Vector2(horizontal * speed, vertical * speed);
     }
 }
