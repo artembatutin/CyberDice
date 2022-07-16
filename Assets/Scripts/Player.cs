@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     private CinemachineVirtualCamera cam;
     private Rigidbody2D rb;
-    public int selected;
+    private int selected;
     public float speed;
     public List<string> guns = new List<string>();
     private float horizontal;
@@ -21,17 +21,6 @@ public class Player : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            if(selected == 0)
-            {
-                selected = 1;
-            }
-            else
-            {
-                selected = 0;
-            }
-        }
         horizontal = Input.GetAxis("Horizontal");
        vertical = Input.GetAxis("Vertical");
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
