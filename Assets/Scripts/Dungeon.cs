@@ -31,7 +31,6 @@ public class Dungeon : MonoBehaviour
 
                 if (a == 1)
                 {
-                    Debug.Log("Right");
                     bool used = false;
                     int e = 0;
                     while (e < variable.used.Count - 1)
@@ -58,7 +57,6 @@ public class Dungeon : MonoBehaviour
                 }
                 if (b == 1)
                 {
-                    Debug.Log("Left");
                     bool used = false;
                     int e = 0;
                     while (e < variable.used.Count - 1)
@@ -85,7 +83,6 @@ public class Dungeon : MonoBehaviour
                 }
                 if (c == 1)
                 {
-                    Debug.Log("Up");
                     bool used = false;
                     int e = 0;
                     while (e < variable.used.Count - 1)
@@ -113,7 +110,6 @@ public class Dungeon : MonoBehaviour
                 }
                 if (d == 1)
                 {
-                    Debug.Log("Down");
                     bool used = false;
                     int e = 0;
                     while (e <= variable.used.Count - 1)
