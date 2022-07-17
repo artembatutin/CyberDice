@@ -165,14 +165,4 @@ public class Dice : MonoBehaviour
                 return 60;
         }
     }
-
-    public Color[] getColors()
-    {
-        return this.colors;
-    }
-
-    public Color getColor(int dimension)
-    {
-        return this.colors[dimension + 1];
-    }
 }

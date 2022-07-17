@@ -7,16 +7,13 @@ public class GunClass : MonoBehaviour
 {
     public string name_;
     public GameObject bullet;
+    public GameObject firepoint;
 
-    public void Shoot(Transform parent, float speed, int dimension)
-    {
-        GameObject bulletObject = Instantiate(bullet, parent.position, parent.rotation);
+    public void Shoot(float speed)
+    {         
+        GameObject bulletObject = Instantiate(bullet, firepoint.transform.position, firepoint.transform.rotation);
         Rigidbody2D rb = bulletObject.GetComponent<Rigidbody2D>();
-        //rb.AddRelativeForce(Vector3.forward * speed * 100, ForceMode2D.Impulse);
-        //rb.AddForce(parent.transform.up * speed, ForceMode2D.Impulse);
-        rb.AddRelativeForce(Vector3.up * speed, ForceMode2D.Impulse);
-
-        Bullet destroy = bulletObject.GetComponent<Bullet>();
-        destroy.setDimension(dimension);
+        bulletObject.name = name_;
+        rb.AddForce(firepoint.transform.up * speed, ForceMode2D.Impulse);        
     }
 }
