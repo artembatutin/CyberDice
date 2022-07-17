@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,10 +24,11 @@ public class BulletChamber : MonoBehaviour
 
     void Awake()
     {
-        if(isLeft)
+        if (isLeft)
         {
             left = this;
-        } else
+        }
+        else
         {
             right = this;
         }
@@ -41,7 +42,7 @@ public class BulletChamber : MonoBehaviour
         if (started && magSize < 10)
         {
             reloadDelay -= Time.deltaTime;
-            if(reloadDelay < 0)
+            if (reloadDelay < 0)
             {
                 magSize++;
 
@@ -62,12 +63,12 @@ public class BulletChamber : MonoBehaviour
 
     public int Shoot()
     {
-        if(bullets.Count < 1)
+        if (bullets.Count < 1)
         {
             return -1;
         }
         BulletImage bullet = bullets.Dequeue();
-        if(!bullet)
+        if (!bullet)
         {
             return -1;
         }
@@ -86,11 +87,12 @@ public class BulletChamber : MonoBehaviour
         int cycles = Random.Range(15, 30);
         int c = 1;
 
-        for (int cycle = 0; cycle < Random.Range(10, 20); cycle++) {
+        for (int cycle = 0; cycle < Random.Range(10, 20); cycle++)
+        {
             image.SetColor(colors[c]);
-            yield return new WaitForSecondsRealtime((reloadTime / 10f) /cycles);
+            yield return new WaitForSecondsRealtime((reloadTime / 10f) / cycles);
             c++;
-            if(c > colors.Length - 1)
+            if (c > colors.Length - 1)
             {
                 c = 1;
             }

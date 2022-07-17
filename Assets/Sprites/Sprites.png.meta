@@ -461,6 +461,12 @@ TextureImporter:
   - first:
       213: 2504170125896549414
     second: Background
+  - first:
+      213: 6914810546053452237
+    second: thumb
+  - first:
+      213: -3574820651616021983
+    second: heart
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -646,8 +652,8 @@ TextureImporter:
       name: Character_0001_BicepL
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 2692
+        x: 1575
+        y: 556
         width: 196
         height: 459
       alignment: 9
@@ -793,8 +799,8 @@ TextureImporter:
       name: Character_0008_ThighL
       rect:
         serializedVersion: 2
-        x: 1093
-        y: 2687
+        x: 968
+        y: 2152
         width: 197
         height: 534
       alignment: 9
@@ -1108,8 +1114,8 @@ TextureImporter:
       name: Enemy-Chaos_0000s_0000_ArmL
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 3153
+        x: 1167
+        y: 2291
         width: 392
         height: 428
       alignment: 9
@@ -1171,8 +1177,8 @@ TextureImporter:
       name: Enemy-Chaos_0000s_0003_BicepL
       rect:
         serializedVersion: 2
-        x: 1575
-        y: 668
+        x: 1274
+        y: 69
         width: 337
         height: 347
       alignment: 9
@@ -1192,8 +1198,8 @@ TextureImporter:
       name: Enemy-Chaos_0000s_0004_Head
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 2199
+        x: 1
+        y: 2200
         width: 312
         height: 486
       alignment: 9
@@ -1213,7 +1219,7 @@ TextureImporter:
       name: Enemy-Chaos_0000s_0005_Chest
       rect:
         serializedVersion: 2
-        x: 1
+        x: 315
         y: 2205
         width: 651
         height: 481
@@ -1234,8 +1240,8 @@ TextureImporter:
       name: Enemy-Chaos_0000s_0006_ArmR
       rect:
         serializedVersion: 2
-        x: 654
-        y: 2255
+        x: 1613
+        y: 123
         width: 379
         height: 431
       alignment: 9
@@ -1276,8 +1282,8 @@ TextureImporter:
       name: Enemy-Chaos_0000s_0008_BicepR
       rect:
         serializedVersion: 2
-        x: 1274
-        y: 69
+        x: 1293
+        y: 3234
         width: 338
         height: 347
       alignment: 9
@@ -1318,8 +1324,8 @@ TextureImporter:
       name: Enemy-Chaos_0000s_0010_ArmRConnnector
       rect:
         serializedVersion: 2
-        x: 790
-        y: 1991
+        x: 1561
+        y: 2457
         width: 195
         height: 262
       alignment: 9
@@ -1339,7 +1345,7 @@ TextureImporter:
       name: Enemy-Chaos_0000s_0011_BicepLConnnector
       rect:
         serializedVersion: 2
-        x: 1
+        x: 369
         y: 2020
         width: 277
         height: 183
@@ -1360,8 +1366,8 @@ TextureImporter:
       name: Enemy-Chaos_0000s_0012_ArmLConnnector
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1986
+        x: 1482
+        y: 2022
         width: 134
         height: 267
       alignment: 9
@@ -1675,8 +1681,8 @@ TextureImporter:
       name: Enemy-Dellusion_0000s_0003_ArmL
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 3153
+        x: 1167
+        y: 2291
         width: 392
         height: 428
       alignment: 0
@@ -1738,8 +1744,8 @@ TextureImporter:
       name: Enemy-Dellusion_0000s_0006_BicepL
       rect:
         serializedVersion: 2
-        x: 1575
-        y: 668
+        x: 1274
+        y: 69
         width: 337
         height: 347
       alignment: 0
@@ -1759,8 +1765,8 @@ TextureImporter:
       name: Enemy-Dellusion_0000s_0007_Head
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 2199
+        x: 1
+        y: 2200
         width: 312
         height: 486
       alignment: 0
@@ -1801,8 +1807,8 @@ TextureImporter:
       name: Enemy-Dellusion_0000s_0009_ArmR
       rect:
         serializedVersion: 2
-        x: 654
-        y: 2255
+        x: 1613
+        y: 123
         width: 379
         height: 431
       alignment: 0
@@ -1843,8 +1849,8 @@ TextureImporter:
       name: Enemy-Dellusion_0000s_0011_BicepR
       rect:
         serializedVersion: 2
-        x: 1274
-        y: 69
+        x: 1293
+        y: 3234
         width: 338
         height: 347
       alignment: 0
@@ -1885,8 +1891,8 @@ TextureImporter:
       name: Enemy-Dellusion_0000s_0013_ArmRConnnector
       rect:
         serializedVersion: 2
-        x: 790
-        y: 1991
+        x: 1561
+        y: 2457
         width: 195
         height: 262
       alignment: 0
@@ -1906,7 +1912,7 @@ TextureImporter:
       name: Enemy-Dellusion_0000s_0014_BicepLConnnector
       rect:
         serializedVersion: 2
-        x: 1
+        x: 369
         y: 2020
         width: 277
         height: 183
@@ -1927,8 +1933,8 @@ TextureImporter:
       name: Enemy-Dellusion_0000s_0015_ArmLConnnector
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1986
+        x: 1482
+        y: 2022
         width: 134
         height: 267
       alignment: 0
@@ -2032,7 +2038,7 @@ TextureImporter:
       name: Enemy-Dellusion_0000s_0020_LowerTorso
       rect:
         serializedVersion: 2
-        x: 280
+        x: 1
         y: 2054
         width: 366
         height: 102
@@ -2242,8 +2248,8 @@ TextureImporter:
       name: Enemy-Infernal_0000_ArmL
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 3153
+        x: 1167
+        y: 2291
         width: 392
         height: 428
       alignment: 0
@@ -2305,8 +2311,8 @@ TextureImporter:
       name: Enemy-Infernal_0003_BicepL
       rect:
         serializedVersion: 2
-        x: 1575
-        y: 668
+        x: 1274
+        y: 69
         width: 337
         height: 347
       alignment: 0
@@ -2326,8 +2332,8 @@ TextureImporter:
       name: Enemy-Infernal_0004_Head
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 2199
+        x: 1
+        y: 2200
         width: 312
         height: 486
       alignment: 0
@@ -2368,8 +2374,8 @@ TextureImporter:
       name: Enemy-Infernal_0006_ArmR
       rect:
         serializedVersion: 2
-        x: 654
-        y: 2255
+        x: 1613
+        y: 123
         width: 379
         height: 431
       alignment: 0
@@ -2410,8 +2416,8 @@ TextureImporter:
       name: Enemy-Infernal_0008_BicepR
       rect:
         serializedVersion: 2
-        x: 1274
-        y: 69
+        x: 1293
+        y: 3234
         width: 338
         height: 347
       alignment: 0
@@ -2452,8 +2458,8 @@ TextureImporter:
       name: Enemy-Infernal_0010_ArmRConnnector
       rect:
         serializedVersion: 2
-        x: 790
-        y: 1991
+        x: 1561
+        y: 2457
         width: 195
         height: 262
       alignment: 0
@@ -2473,7 +2479,7 @@ TextureImporter:
       name: Enemy-Infernal_0011_BicepLConnnector
       rect:
         serializedVersion: 2
-        x: 1
+        x: 369
         y: 2020
         width: 277
         height: 183
@@ -2494,8 +2500,8 @@ TextureImporter:
       name: Enemy-Infernal_0012_ArmLConnnector
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1986
+        x: 1482
+        y: 2022
         width: 134
         height: 267
       alignment: 0
@@ -2809,8 +2815,8 @@ TextureImporter:
       name: Enemy-Void_0000s_0000_ArmL
       rect:
         serializedVersion: 2
-        x: 1293
-        y: 3153
+        x: 1167
+        y: 2291
         width: 392
         height: 428
       alignment: 0
@@ -2872,8 +2878,8 @@ TextureImporter:
       name: Enemy-Void_0000s_0003_BicepL
       rect:
         serializedVersion: 2
-        x: 1575
-        y: 668
+        x: 1274
+        y: 69
         width: 337
         height: 347
       alignment: 0
@@ -2893,8 +2899,8 @@ TextureImporter:
       name: Enemy-Void_0000s_0004_Head
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 2199
+        x: 1
+        y: 2200
         width: 312
         height: 486
       alignment: 0
@@ -2935,8 +2941,8 @@ TextureImporter:
       name: Enemy-Void_0000s_0006_ArmR
       rect:
         serializedVersion: 2
-        x: 654
-        y: 2255
+        x: 1613
+        y: 123
         width: 379
         height: 431
       alignment: 0
@@ -2977,8 +2983,8 @@ TextureImporter:
       name: Enemy-Void_0000s_0008_BicepR
       rect:
         serializedVersion: 2
-        x: 1274
-        y: 69
+        x: 1293
+        y: 3234
         width: 338
         height: 347
       alignment: 0
@@ -3019,8 +3025,8 @@ TextureImporter:
       name: Enemy-Void_0000s_0010_ArmRConnnector
       rect:
         serializedVersion: 2
-        x: 790
-        y: 1991
+        x: 1561
+        y: 2457
         width: 195
         height: 262
       alignment: 0
@@ -3040,7 +3046,7 @@ TextureImporter:
       name: Enemy-Void_0000s_0011_BicepLConnnector
       rect:
         serializedVersion: 2
-        x: 1
+        x: 369
         y: 2020
         width: 277
         height: 183
@@ -3061,8 +3067,8 @@ TextureImporter:
       name: Enemy-Void_0000s_0012_ArmLConnnector
       rect:
         serializedVersion: 2
-        x: 654
-        y: 1986
+        x: 1482
+        y: 2022
         width: 134
         height: 267
       alignment: 0
@@ -3452,6 +3458,48 @@ TextureImporter:
       bones: []
       spriteID: 59080044942672080800000000000000
       internalID: -9212286445950041963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2014
+        width: 313
+        height: 275
+      alignment: 9
+      pivot: {x: 0.49840257, y: 0.5527273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12252bcbe8fa36ec0800000000000000
+      internalID: -3574820651616021983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thumb
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 2721
+        width: 630
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc114ae2e8756ff50800000000000000
+      internalID: 6914810546053452237
       vertices: []
       indices: 
       edges: []

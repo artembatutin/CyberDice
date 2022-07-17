@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -29,10 +29,10 @@ public class BulletImage : MonoBehaviour
     void Update()
     {
         transform.localPosition = Vector3.Lerp(transform.localPosition, destination, Time.deltaTime * 10f);
-        if(destroy)
+        if (destroy)
         {
             destroyTime -= Time.deltaTime;
-            if(destroyTime < 0)
+            if (destroyTime < 0)
             {
                 Destroy(gameObject);
             }
