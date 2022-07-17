@@ -274,7 +274,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1000
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.60784316, g: 0.60784316, b: 0.7058824, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -296,6 +296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7531d3777fe2abf47b19e6c8fb5c5b12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shootPoint: {fileID: 0}
+  rotateTrans: {fileID: 0}
   selected: 0
   speed: 4
   guns:
@@ -363,7 +365,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name_: Pistol
   bullet: {fileID: 1103210506417109212, guid: d9532d8ecf812d34593e5dcc8b7f18f3, type: 3}
-  firepoint: {fileID: 4852611086297779616}
 --- !u!1 &7986278362253300643
 GameObject:
   m_ObjectHideFlags: 0

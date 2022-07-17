@@ -1,0 +1,744 @@
+fileFormatVersion: 2
+guid: 95e4499680e314bdcbb4a8247697f218
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7724565141491763193
+    second: BloodyText
+  - first:
+      213: 1972434268833150440
+    second: Bulb
+  - first:
+      213: -8210916259423128144
+    second: BulletArt
+  - first:
+      213: -1127803940300388072
+    second: Character
+  - first:
+      213: 2807235103910589326
+    second: Crates
+  - first:
+      213: 5352345003944381414
+    second: Dice-Chaos
+  - first:
+      213: -9133195699737118516
+    second: Dice-Delusion
+  - first:
+      213: 17362033993073439
+    second: Dice-Infernal
+  - first:
+      213: 8929051435696730585
+    second: Dice-Void
+  - first:
+      213: 1788331669285123037
+    second: DownlightBulb
+  - first:
+      213: -5606233102798649099
+    second: DownlightChain
+  - first:
+      213: 8492723411660426613
+    second: Enemy-Chaos
+  - first:
+      213: -9154408344692111977
+    second: Enemy-Dellusion
+  - first:
+      213: 6878469647291339049
+    second: Enemy-Infernal
+  - first:
+      213: 1243004933909044864
+    second: Enemy-Void
+  - first:
+      213: 2023774669021310777
+    second: Environment-Barrel
+  - first:
+      213: 4431947610013367990
+    second: Floor-Tileable
+  - first:
+      213: -1151742723911802161
+    second: FuseBox
+  - first:
+      213: -9051604774897464126
+    second: Wall1Doors
+  - first:
+      213: -2743914444710560497
+    second: Wall1SidesDoors
+  - first:
+      213: -8011399661150912998
+    second: Wall1SidesNoDoors
+  - first:
+      213: -6957583382298376185
+    second: Wall1TopsDoors
+  - first:
+      213: 4066466959235373898
+    second: Wall1TopsNoDoors
+  - first:
+      213: -7769277667381477499
+    second: Wall2SidesDoors
+  - first:
+      213: -5826964237515816254
+    second: Wall2SidesNoDoors
+  - first:
+      213: 6779788690152086808
+    second: Wall2TopsDoors
+  - first:
+      213: 1137872615995814388
+    second: Wall2TopsNoDoors
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BloodyText
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 5551
+        width: 1781
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708b4092ee4dcc490800000000000000
+      internalID: -7724565141491763193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bulb
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 3427
+        width: 1316
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e57b90648e7f5b10800000000000000
+      internalID: 1972434268833150440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BulletArt
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 3865
+        width: 768
+        height: 1587
+      alignment: 9
+      pivot: {x: 0.098958336, y: 0.55135477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5fa945a27fc0e80800000000000000
+      internalID: -8210916259423128144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 6220
+        width: 838
+        height: 1971
+      alignment: 9
+      pivot: {x: 0.5477327, y: 0.5129376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8190c1aaa4c3950f0800000000000000
+      internalID: -1127803940300388072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crates
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 4509
+        width: 1378
+        height: 1040
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83f891247d45f620800000000000000
+      internalID: 2807235103910589326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dice-Chaos
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 6801
+        width: 668
+        height: 694
+      alignment: 9
+      pivot: {x: 0.5217066, y: 0.6448127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb01735c69574a40800000000000000
+      internalID: 5352345003944381414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dice-Delusion
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 4911
+        width: 782
+        height: 806
+      alignment: 9
+      pivot: {x: 0.5300512, y: 0.5787841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc83b0d96ee504180800000000000000
+      internalID: -9133195699737118516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dice-Infernal
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 7497
+        width: 669
+        height: 694
+      alignment: 9
+      pivot: {x: 0.52242154, y: 0.6448127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f134cbc8daead3000800000000000000
+      internalID: 17362033993073439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dice-Void
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 5454
+        width: 784
+        height: 764
+      alignment: 9
+      pivot: {x: 0.44579083, y: 0.677356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d135edf8fc5aeb70800000000000000
+      internalID: 8929051435696730585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownlightBulb
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 271
+        width: 1336
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd33250ad2e61d810800000000000000
+      internalID: 1788331669285123037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DownlightChain
+      rect:
+        serializedVersion: 2
+        x: 5225
+        y: 4469
+        width: 469
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f886a332b8a232b0800000000000000
+      internalID: -5606233102798649099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5913
+        width: 2090
+        height: 2278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dc9af42f63cd570800000000000000
+      internalID: 8492723411660426613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3633
+        width: 2090
+        height: 2278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79541c5dc1205f080800000000000000
+      internalID: -9154408344692111977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1353
+        width: 2090
+        height: 2278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9215b1553bb357f50800000000000000
+      internalID: 6878469647291339049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 5913
+        width: 2090
+        height: 2278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ed4b3d66a004110800000000000000
+      internalID: 1243004933909044864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment-Barrel
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 2783
+        width: 1090
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93fe27cc654e51c10800000000000000
+      internalID: 2023774669021310777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor-Tileable
+      rect:
+        serializedVersion: 2
+        x: 5937
+        y: 5204
+        width: 1854
+        height: 1032
+      alignment: 9
+      pivot: {x: 0.50053936, y: 0.500969}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6befcfdaed0718d30800000000000000
+      internalID: 4431947610013367990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FuseBox
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 5719
+        width: 663
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2a89448103400f0800000000000000
+      internalID: -1151742723911802161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall1Doors
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 271
+        width: 1778
+        height: 1080
+      alignment: 9
+      pivot: {x: 0.5112486, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccc1092a6d326280800000000000000
+      internalID: -9051604774897464126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall1SidesDoors
+      rect:
+        serializedVersion: 2
+        x: 5937
+        y: 7047
+        width: 1920
+        height: 361
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49861497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0db6f4b958abe9d0800000000000000
+      internalID: -2743914444710560497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall1SidesNoDoors
+      rect:
+        serializedVersion: 2
+        x: 5937
+        y: 7410
+        width: 1920
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e3a63547ac1d090800000000000000
+      internalID: -8011399661150912998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall1TopsDoors
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 1920
+        height: 223
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13452914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708c1f2d6c2b17f90800000000000000
+      internalID: -6957583382298376185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall1TopsNoDoors
+      rect:
+        serializedVersion: 2
+        x: 5937
+        y: 6608
+        width: 1920
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b5614872efe6830800000000000000
+      internalID: 4066466959235373898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall2SidesDoors
+      rect:
+        serializedVersion: 2
+        x: 5937
+        y: 6238
+        width: 1916
+        height: 368
+      alignment: 9
+      pivot: {x: 0.49895614, y: 1.4673913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ff95aff1bfd2490800000000000000
+      internalID: -7769277667381477499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall2SidesNoDoors
+      rect:
+        serializedVersion: 2
+        x: 5937
+        y: 7798
+        width: 1920
+        height: 393
+      alignment: 9
+      pivot: {x: 0.5, y: 1.3740458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c207f706e6722fa0800000000000000
+      internalID: -5826964237515816254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall2TopsDoors
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 50
+        width: 1920
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5, y: 2.4657533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81dd9b094e5a61e50800000000000000
+      internalID: 6779788690152086808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall2TopsNoDoors
+      rect:
+        serializedVersion: 2
+        x: 5937
+        y: 6827
+        width: 1920
+        height: 218
+      alignment: 9
+      pivot: {x: 0.5, y: 2.4770641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f133149d198acf00800000000000000
+      internalID: 1137872615995814388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
