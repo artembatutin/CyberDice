@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
 
-    private const float SPEEDMAX = 1.2f;
+    private const float SPEEDMAX = 0.5f;
     private float spawnSpeed = 3f;
 
     private Enemy[] enemies;

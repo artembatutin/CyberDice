@@ -22,6 +22,8 @@ public class Player : MonoBehaviour
     private Animator anim;
     private bool animWalking = false;
 
+
+    private AudioSource source;
     private bool flipped = false;
 
 
@@ -53,6 +55,7 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
         gun = GetComponent<GunClass>();
         rb = GetComponent<Rigidbody2D>();
+        source = GetComponent<AudioSource>();
         rb.fixedAngle = true;//idk if deprecated :D
     }
     private void Update()
@@ -79,6 +82,7 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("walking", true);
             animWalking = true;
+            source.mute = false;
         } else if(momentum) {
             anim.speed = Mathf.Max(Mathf.Abs(horizontal), Mathf.Abs(vertical));
         } else if(!momentum && animWalking)
@@ -86,6 +90,7 @@ public class Player : MonoBehaviour
             anim.SetBool("walking", false);
             anim.speed = 1f;
             animWalking = false;
+            source.mute = true;
         }
 
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);

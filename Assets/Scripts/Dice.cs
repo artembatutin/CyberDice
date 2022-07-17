@@ -97,7 +97,7 @@ public class Dice : MonoBehaviour
         {
             int random = Random.Range(1, colors.Length - 1);
             sr.sprite = dicesImages[random];
-            sr.gameObject.transform.Rotate(0, 0, Random.Range(10, 20));
+            sr.gameObject.transform.Rotate(0, 0, Mathf.Lerp(0, Random.Range(10, 20), DELAY_CYCLES));
             yield return new WaitForSeconds(DELAY_CYCLES);
         }
 

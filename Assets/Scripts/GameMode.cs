@@ -8,6 +8,7 @@ public class GameMode : MonoBehaviour
     private int state = 0;//0 menu, 1 game, 2 credits
 
     private Animator anim;
+    public AudioSource storyAudio;
 
     void Awake()
     {
@@ -24,10 +25,18 @@ public class GameMode : MonoBehaviour
 
     public void StartGame()
     {
-        Time.timeScale = 1f;
+        //Camera.main.gameObject.GetComponent<AudioSource>().volume = Mathf.Lerp(0.6f, 0.1f, 1f);
+        //storyAudio.enabled = true;
         state = 1;
         anim.SetInteger("mode", state);
-        Dice.instance.shuffle();
+    }
+
+    public void InitGame()
+    {
+        //Camera.main.gameObject.GetComponent<AudioSource>().volume = Mathf.Lerp(0.1f, 0.6f, 1f);
+        Time.timeScale = 1f;
+        StartCoroutine(Dice.instance.shuffle());
+        //storyAudio.enabled = false;
     }
 
     public void Credits()
