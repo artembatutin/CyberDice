@@ -41,6 +41,10 @@ public class BulletImage : MonoBehaviour
 
     public void Hide()
     {
+        if(!transform)
+        {
+            Awake();
+        }
         destination = new Vector3(destination.x, 100f, destination.z);
         transform.localPosition = destination;
     }
