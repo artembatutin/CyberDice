@@ -5,7 +5,7 @@ using Cinemachine;
 public class Player : MonoBehaviour
 {
 
-    public const float SHOT_DELAY = 0.5f;
+    public const float SHOT_DELAY = 0.3f;
 
     public Transform shootPoint;
     public Transform rotateTrans;
@@ -14,8 +14,20 @@ public class Player : MonoBehaviour
     private float rightShotDelay = 0;
 
     private Rigidbody2D rb;
+    private Animator anim;
+    private bool animWalking = false;
+
+    private bool flipped = false;
+
+
     public int selected;
+
+    [SerializeField]
     public float speed;
+    [SerializeField]
+    public float shootSpeed = 40f;
+
+
     public List<string> guns = new List<string>();
     private float horizontal;
     private float vertical;
@@ -25,7 +37,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-
+        anim = GetComponent<Animator>();
         gun = GetComponent<GunClass>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -49,6 +61,21 @@ public class Player : MonoBehaviour
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
+        bool momentum = horizontal > 0.3f || horizontal < -0.3f || vertical > 0.3f || vertical < -0.3f;
+
+        if (!animWalking && momentum)
+        {
+            anim.SetBool("walking", true);
+            animWalking = true;
+        } else if(momentum) {
+            anim.speed = Mathf.Max(Mathf.Abs(horizontal), Mathf.Abs(vertical));
+        } else if(!momentum && animWalking)
+        {
+            anim.SetBool("walking", false);
+            anim.speed = 1f;
+            animWalking = false;
+        }
+
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 lookDir = mousePos - rb.position;
 
@@ -56,13 +83,14 @@ public class Player : MonoBehaviour
         rotateTrans.transform.eulerAngles = new Vector3(0, 0, angle);
         shootPoint.transform.eulerAngles = new Vector3(0, 0, angle);
 
+        setFlipped(lookDir.x < 0);
 
         if(leftClick && leftShotDelay < 0)
         {
             int leftBullet = BulletChamber.left.Shoot();
-            if (leftBullet > 0)
+            if (leftBullet >= 0)
             {
-                gun.Shoot(shootPoint, 4, leftBullet);
+                gun.Shoot(shootPoint, shootSpeed, leftBullet);
                 leftShotDelay = SHOT_DELAY;
             } else
             {
@@ -76,9 +104,9 @@ public class Player : MonoBehaviour
         if (rightClick && rightShotDelay < 0)
         {
             int rightBullet = BulletChamber.right.Shoot();
-            if (rightBullet > 0)
+            if (rightBullet >= 0)
             {
-                gun.Shoot(shootPoint, 4, rightBullet);
+                gun.Shoot(shootPoint, shootSpeed, rightBullet);
                 rightShotDelay = SHOT_DELAY;
             } else
             {
@@ -93,5 +121,15 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(horizontal * speed, vertical * speed);
+    }
+
+    private void setFlipped(bool flipped)
+    {
+        if(this.flipped != flipped)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+            rotateTrans.localScale = new Vector3(-rotateTrans.localScale.x, rotateTrans.localScale.y, rotateTrans.localScale.z);
+            this.flipped = flipped;
+        }
     }
 }

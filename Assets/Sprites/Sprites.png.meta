@@ -83,6 +83,384 @@ TextureImporter:
   - first:
       213: 1137872615995814388
     second: Wall2TopsNoDoors
+  - first:
+      213: -7127225053093124192
+    second: Character_0000_Head
+  - first:
+      213: 8509654394622052574
+    second: Character_0001_BicepL
+  - first:
+      213: 4782251858507069413
+    second: Character_0002_Chest
+  - first:
+      213: 5842181910062745515
+    second: Character_0003_BicepR
+  - first:
+      213: 7699009525862153189
+    second: Character_0004_ArmR
+  - first:
+      213: 2065211656717627944
+    second: Character_0005_HandR
+  - first:
+      213: -5241182368550882474
+    second: Character_0006_ArmL
+  - first:
+      213: 4909863974104757252
+    second: Character_0007_CalfL
+  - first:
+      213: 332543114029053910
+    second: Character_0008_ThighL
+  - first:
+      213: -762050658432486269
+    second: Character_0009_ShoeR
+  - first:
+      213: -1483253050221536207
+    second: Character_0010_CalfR
+  - first:
+      213: -7722606560258924719
+    second: Character_0011_ThighL
+  - first:
+      213: 4295573114972690106
+    second: Character_0012_ShoeR
+  - first:
+      213: 8419918140799986545
+    second: Character_0013_HandL
+  - first:
+      213: 7046659568427396465
+    second: Character_0014_Neck
+  - first:
+      213: -8830662000409783448
+    second: Character_0015_Cape_Jacket
+  - first:
+      213: -7403163334859957589
+    second: Enemy-Infernal_0000_ArmL
+  - first:
+      213: 2528717822210482649
+    second: Enemy-Infernal_0001_SpikeR-copy
+  - first:
+      213: 8480921893893321556
+    second: Enemy-Infernal_0002_SpikeR
+  - first:
+      213: -2696439023778986602
+    second: Enemy-Infernal_0003_BicepL
+  - first:
+      213: -1929236845470826498
+    second: Enemy-Infernal_0004_Head
+  - first:
+      213: -1633988147633516046
+    second: Enemy-Infernal_0005_Chest
+  - first:
+      213: -4970648081724709216
+    second: Enemy-Infernal_0006_ArmR
+  - first:
+      213: -5053128480285852125
+    second: Enemy-Infernal_0007_Spike-Connector-R
+  - first:
+      213: -2047342873105678160
+    second: Enemy-Infernal_0008_BicepR
+  - first:
+      213: 5260981108652533641
+    second: Enemy-Infernal_0009_BicepRConnnector
+  - first:
+      213: -415741790449177155
+    second: Enemy-Infernal_0010_ArmRConnnector
+  - first:
+      213: 1793199546552616242
+    second: Enemy-Infernal_0011_BicepLConnnector
+  - first:
+      213: -5803698837398808948
+    second: Enemy-Infernal_0012_ArmLConnnector
+  - first:
+      213: 3238871790367983439
+    second: Enemy-Infernal_0013_Neck
+  - first:
+      213: -346059627571872568
+    second: Enemy-Infernal_0014_Neck-Connector-L
+  - first:
+      213: -3882628342074514689
+    second: Enemy-Infernal_0015_Spike-Connector-L
+  - first:
+      213: -5729429277980529934
+    second: Enemy-Infernal_0016_Neck-Connector
+  - first:
+      213: 8636218201973524244
+    second: Enemy-Infernal_0017_LowerTorso
+  - first:
+      213: 6758090215843919209
+    second: Enemy-Infernal_0018_UpperTorso
+  - first:
+      213: -2853945481533765290
+    second: Enemy-Infernal_0019_LegL
+  - first:
+      213: -6020742641096944731
+    second: Enemy-Infernal_0020_ThighL
+  - first:
+      213: -7964848919203053587
+    second: Enemy-Infernal_0021_KneeL
+  - first:
+      213: 7567345991113178219
+    second: Enemy-Infernal_0022_LegR
+  - first:
+      213: -8676195074847248395
+    second: Enemy-Infernal_0023_ThighR
+  - first:
+      213: 6675858328356294984
+    second: Enemy-Infernal_0024_KneeR
+  - first:
+      213: 7734396031265753805
+    second: Enemy-Infernal_0025_FootL
+  - first:
+      213: -5313546735711111182
+    second: Enemy-Infernal_0026_FootR
+  - first:
+      213: -2785767294622537358
+    second: Enemy-Chaos_0000s_0000_ArmL
+  - first:
+      213: -7996037395837989976
+    second: Enemy-Chaos_0000s_0001_SpikeR-copy
+  - first:
+      213: 5728579912438355016
+    second: Enemy-Chaos_0000s_0002_SpikeR
+  - first:
+      213: -6784296019361628939
+    second: Enemy-Chaos_0000s_0003_BicepL
+  - first:
+      213: -8995015512378366845
+    second: Enemy-Chaos_0000s_0004_Head
+  - first:
+      213: -285724716277383160
+    second: Enemy-Chaos_0000s_0005_Chest
+  - first:
+      213: 7670988981891513420
+    second: Enemy-Chaos_0000s_0006_ArmR
+  - first:
+      213: -7934711991651647446
+    second: Enemy-Chaos_0000s_0007_Spike-Connector-R
+  - first:
+      213: -4564158892003021784
+    second: Enemy-Chaos_0000s_0008_BicepR
+  - first:
+      213: 1673878444197152875
+    second: Enemy-Chaos_0000s_0009_BicepRConnnector
+  - first:
+      213: 6403506432552454423
+    second: Enemy-Chaos_0000s_0010_ArmRConnnector
+  - first:
+      213: -7119667899076752310
+    second: Enemy-Chaos_0000s_0011_BicepLConnnector
+  - first:
+      213: 8619131690038954382
+    second: Enemy-Chaos_0000s_0012_ArmLConnnector
+  - first:
+      213: 9155660662005606801
+    second: Enemy-Chaos_0000s_0013_Neck
+  - first:
+      213: 7810454631814913288
+    second: Enemy-Chaos_0000s_0014_Neck-Connector-L
+  - first:
+      213: 5033763046543844210
+    second: Enemy-Chaos_0000s_0015_Spike-Connector-L
+  - first:
+      213: 8000150248082369883
+    second: Enemy-Chaos_0000s_0016_Neck-Connector
+  - first:
+      213: 721282152576567022
+    second: Enemy-Chaos_0000s_0017_LowerTorso
+  - first:
+      213: -5906521346623842143
+    second: Enemy-Chaos_0000s_0018_UpperTorso
+  - first:
+      213: -95757286484122417
+    second: Enemy-Chaos_0000s_0019_LegL
+  - first:
+      213: 6684081786666331745
+    second: Enemy-Chaos_0000s_0020_ThighL
+  - first:
+      213: -8202527885308248105
+    second: Enemy-Chaos_0000s_0021_KneeL
+  - first:
+      213: -5605125577224954145
+    second: Enemy-Chaos_0000s_0022_LegR
+  - first:
+      213: 1013423106220086081
+    second: Enemy-Chaos_0000s_0023_ThighR
+  - first:
+      213: 1621064244243686867
+    second: Enemy-Chaos_0000s_0024_KneeR
+  - first:
+      213: -4335329293365621428
+    second: Enemy-Chaos_0000s_0025_FootL
+  - first:
+      213: 565821430151869431
+    second: Enemy-Chaos_0000s_0026_FootR
+  - first:
+      213: -6251076951457118037
+    second: Enemy-Dellusion_0000s_0003_ArmL
+  - first:
+      213: 1332279890095363363
+    second: Enemy-Dellusion_0000s_0004_SpikeR-copy
+  - first:
+      213: -5091273791049869599
+    second: Enemy-Dellusion_0000s_0005_SpikeR
+  - first:
+      213: 7137531675636036538
+    second: Enemy-Dellusion_0000s_0006_BicepL
+  - first:
+      213: -1316419351220553799
+    second: Enemy-Dellusion_0000s_0007_Head
+  - first:
+      213: 5996582150003357780
+    second: Enemy-Dellusion_0000s_0008_Chest
+  - first:
+      213: 8349454467916786573
+    second: Enemy-Dellusion_0000s_0009_ArmR
+  - first:
+      213: 7602148721440302656
+    second: Enemy-Dellusion_0000s_0010_Spike-Connector-R
+  - first:
+      213: -1561593950753934415
+    second: Enemy-Dellusion_0000s_0011_BicepR
+  - first:
+      213: -6426371493508137160
+    second: Enemy-Dellusion_0000s_0012_BicepRConnnector
+  - first:
+      213: 4248169688923490346
+    second: Enemy-Dellusion_0000s_0013_ArmRConnnector
+  - first:
+      213: -6952886166357066977
+    second: Enemy-Dellusion_0000s_0014_BicepLConnnector
+  - first:
+      213: 755523016238542598
+    second: Enemy-Dellusion_0000s_0015_ArmLConnnector
+  - first:
+      213: 3117890951749737755
+    second: Enemy-Dellusion_0000s_0016_Neck
+  - first:
+      213: 3471938177908949524
+    second: Enemy-Dellusion_0000s_0017_Neck-Connector-L
+  - first:
+      213: -8382600590631310405
+    second: Enemy-Dellusion_0000s_0018_Spike-Connector-L
+  - first:
+      213: -3021628330704027067
+    second: Enemy-Dellusion_0000s_0019_Neck-Connector
+  - first:
+      213: 1261071650042078880
+    second: Enemy-Dellusion_0000s_0020_LowerTorso
+  - first:
+      213: -6099329422613231182
+    second: Enemy-Dellusion_0000s_0021_UpperTorso
+  - first:
+      213: -6071803243383203346
+    second: Enemy-Dellusion_0000s_0022_LegL
+  - first:
+      213: 354670840156294861
+    second: Enemy-Dellusion_0000s_0023_ThighL
+  - first:
+      213: -8894553021996306333
+    second: Enemy-Dellusion_0000s_0024_KneeL
+  - first:
+      213: -7178314044002526471
+    second: Enemy-Dellusion_0000s_0025_LegR
+  - first:
+      213: -5631321358474802458
+    second: Enemy-Dellusion_0000s_0026_ThighR
+  - first:
+      213: -792523768829839273
+    second: Enemy-Dellusion_0000s_0027_KneeR
+  - first:
+      213: -6748086547291889159
+    second: Enemy-Dellusion_0000s_0028_FootL
+  - first:
+      213: 1641796866367279405
+    second: Enemy-Dellusion_0000s_0029_FootR
+  - first:
+      213: 2250823035614597151
+    second: Enemy-Void_0000s_0000_ArmL
+  - first:
+      213: -141749567381269718
+    second: Enemy-Void_0000s_0001_SpikeR-copy
+  - first:
+      213: 7010149464238146647
+    second: Enemy-Void_0000s_0002_SpikeR
+  - first:
+      213: 8031886555564224257
+    second: Enemy-Void_0000s_0003_BicepL
+  - first:
+      213: 7253384517663586972
+    second: Enemy-Void_0000s_0004_Head
+  - first:
+      213: 857750386362012742
+    second: Enemy-Void_0000s_0005_Chest
+  - first:
+      213: -68350809019082028
+    second: Enemy-Void_0000s_0006_ArmR
+  - first:
+      213: -6168329486148490744
+    second: Enemy-Void_0000s_0007_Spike-Connector-R
+  - first:
+      213: -3619021713599765387
+    second: Enemy-Void_0000s_0008_BicepR
+  - first:
+      213: 872615513715402759
+    second: Enemy-Void_0000s_0009_BicepRConnnector
+  - first:
+      213: -7307644877974196291
+    second: Enemy-Void_0000s_0010_ArmRConnnector
+  - first:
+      213: -5220164320479929234
+    second: Enemy-Void_0000s_0011_BicepLConnnector
+  - first:
+      213: 1692492191357823336
+    second: Enemy-Void_0000s_0012_ArmLConnnector
+  - first:
+      213: -8289842455361450161
+    second: Enemy-Void_0000s_0013_Neck
+  - first:
+      213: -3914270403011119375
+    second: Enemy-Void_0000s_0014_Neck-Connector-L
+  - first:
+      213: -4352931674851169968
+    second: Enemy-Void_0000s_0015_Spike-Connector-L
+  - first:
+      213: 1060608503452572767
+    second: Enemy-Void_0000s_0016_Neck-Connector
+  - first:
+      213: -4099588795171448006
+    second: Enemy-Void_0000s_0017_LowerTorso
+  - first:
+      213: -3868759693970104717
+    second: Enemy-Void_0000s_0018_UpperTorso
+  - first:
+      213: -4231768782543469333
+    second: Enemy-Void_0000s_0019_LegL
+  - first:
+      213: -2167152429606995142
+    second: Enemy-Void_0000s_0020_ThighL
+  - first:
+      213: 1382225835134574687
+    second: Enemy-Void_0000s_0021_KneeL
+  - first:
+      213: -2195474634791980780
+    second: Enemy-Void_0000s_0022_LegR
+  - first:
+      213: 3663909359925506705
+    second: Enemy-Void_0000s_0023_ThighR
+  - first:
+      213: -5312942443349652266
+    second: Enemy-Void_0000s_0024_KneeR
+  - first:
+      213: -8737137736474357448
+    second: Enemy-Void_0000s_0025_FootL
+  - first:
+      213: 8935243442913294998
+    second: Enemy-Void_0000s_0026_FootR
+  - first:
+      213: -9212286445950041963
+    second: Gun
+  - first:
+      213: 2504170125896549414
+    second: Background
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -160,11 +538,32 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+      name: Background
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 134
+        width: 564
+        height: 564
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624853b367990c220800000000000000
+      internalID: 2504170125896549414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: BloodyText
       rect:
         serializedVersion: 2
-        x: 3845
-        y: 5551
+        x: 1
+        y: 5934
         width: 1781
         height: 360
       alignment: 0
@@ -184,8 +583,8 @@ TextureImporter:
       name: Bulb
       rect:
         serializedVersion: 2
-        x: 3845
-        y: 3427
+        x: 1
+        y: 3770
         width: 1316
         height: 1080
       alignment: 0
@@ -205,12 +604,12 @@ TextureImporter:
       name: BulletArt
       rect:
         serializedVersion: 2
-        x: 2093
-        y: 3865
-        width: 768
-        height: 1587
+        x: 1319
+        y: 3583
+        width: 418
+        height: 1267
       alignment: 9
-      pivot: {x: 0.098958336, y: 0.55135477}
+      pivot: {x: 0.5095694, y: 0.4940805}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,22 +622,337 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Character
+      name: Character_0000_Head
       rect:
         serializedVersion: 2
-        x: 2093
-        y: 6220
-        width: 838
-        height: 1971
-      alignment: 9
-      pivot: {x: 0.5477327, y: 0.5129376}
+        x: 3845
+        y: 7804
+        width: 227
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8190c1aaa4c3950f0800000000000000
-      internalID: -1127803940300388072
+      spriteID: 0a7ae1c6392071d90800000000000000
+      internalID: -7127225053093124192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0001_BicepL
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 2692
+        width: 196
+        height: 459
+      alignment: 9
+      pivot: {x: 0.74489796, y: 0.89542484}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed80ac8f59d581670800000000000000
+      internalID: 8509654394622052574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0002_Chest
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 353
+        height: 603
+      alignment: 9
+      pivot: {x: 0.53541076, y: 0.59038144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7f3c45ab8fd5240800000000000000
+      internalID: 4782251858507069413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0003_BicepR
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3278
+        width: 182
+        height: 465
+      alignment: 9
+      pivot: {x: 0.21428572, y: 0.89032257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7c0867e79931150800000000000000
+      internalID: 5842181910062745515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0004_ArmR
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 2525
+        width: 156
+        height: 297
+      alignment: 9
+      pivot: {x: 0.30769232, y: 0.84511787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebbc576f5068da60800000000000000
+      internalID: 7699009525862153189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0005_HandR
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 1983
+        width: 137
+        height: 241
+      alignment: 9
+      pivot: {x: 0.28467155, y: 0.90041494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82276a05f0b19ac10800000000000000
+      internalID: 2065211656717627944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0006_ArmL
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 2226
+        width: 156
+        height: 297
+      alignment: 9
+      pivot: {x: 0.7307692, y: 0.8552188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653fb7f97649347b0800000000000000
+      internalID: -5241182368550882474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0007_CalfL
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2770
+        width: 171
+        height: 506
+      alignment: 9
+      pivot: {x: 0.625731, y: 0.9249012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40470085547532440800000000000000
+      internalID: 4909863974104757252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0008_ThighL
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 2687
+        width: 197
+        height: 534
+      alignment: 9
+      pivot: {x: 0.5786802, y: 0.9363296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d73438433e6d9400800000000000000
+      internalID: 332543114029053910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0009_ShoeR
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 7679
+        width: 220
+        height: 123
+      alignment: 9
+      pivot: {x: 0.19545455, y: 0.8130081}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3847743b6f6ac65f0800000000000000
+      internalID: -762050658432486269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0010_CalfR
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 3988
+        width: 145
+        height: 514
+      alignment: 9
+      pivot: {x: 0.3586207, y: 0.9299611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13cd78d953d6a6be0800000000000000
+      internalID: -1483253050221536207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0011_ThighL
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 3223
+        width: 198
+        height: 545
+      alignment: 9
+      pivot: {x: 0.36363637, y: 0.9431193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f5aa3ef3ac3d490800000000000000
+      internalID: -7722606560258924719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0012_ShoeR
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 8081
+        width: 230
+        height: 110
+      alignment: 9
+      pivot: {x: 0.22173913, y: 0.74545455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab65aa83df0fc9b30800000000000000
+      internalID: 4295573114972690106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0013_HandL
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 3745
+        width: 138
+        height: 241
+      alignment: 9
+      pivot: {x: 0.7173913, y: 0.8755187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b204c30fe89d470800000000000000
+      internalID: 8419918140799986545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0014_Neck
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 5693
+        width: 56
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17de83dea83cac160800000000000000
+      internalID: 7046659568427396465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_0015_Cape_Jacket
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 700
+        width: 577
+        height: 1281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863d80e82bf237580800000000000000
+      internalID: -8830662000409783448
       vertices: []
       indices: 
       edges: []
@@ -247,8 +961,8 @@ TextureImporter:
       name: Crates
       rect:
         serializedVersion: 2
-        x: 3845
-        y: 4509
+        x: 1890
+        y: 4996
         width: 1378
         height: 1040
       alignment: 0
@@ -268,8 +982,8 @@ TextureImporter:
       name: Dice-Chaos
       rect:
         serializedVersion: 2
-        x: 3119
-        y: 6801
+        x: 2410
+        y: 3218
         width: 668
         height: 694
       alignment: 9
@@ -289,8 +1003,8 @@ TextureImporter:
       name: Dice-Delusion
       rect:
         serializedVersion: 2
-        x: 2879
-        y: 4911
+        x: 3266
+        y: 3240
         width: 782
         height: 806
       alignment: 9
@@ -310,8 +1024,8 @@ TextureImporter:
       name: Dice-Infernal
       rect:
         serializedVersion: 2
-        x: 3119
-        y: 7497
+        x: 1739
+        y: 3218
         width: 669
         height: 694
       alignment: 9
@@ -331,8 +1045,8 @@ TextureImporter:
       name: Dice-Void
       rect:
         serializedVersion: 2
-        x: 2093
-        y: 5454
+        x: 3269
+        y: 4048
         width: 784
         height: 764
       alignment: 9
@@ -353,11 +1067,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1781
-        y: 271
+        y: 3914
         width: 1336
         height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.46407187, y: 0.9824074}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -373,12 +1087,12 @@ TextureImporter:
       name: DownlightChain
       rect:
         serializedVersion: 2
-        x: 5225
-        y: 4469
+        x: 580
+        y: 901
         width: 469
         height: 1080
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.42430705, y: 0.97407407}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -391,13 +1105,34 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy-Chaos
+      name: Enemy-Chaos_0000s_0000_ArmL
       rect:
         serializedVersion: 2
-        x: 1
-        y: 5913
-        width: 2090
-        height: 2278
+        x: 1293
+        y: 3153
+        width: 392
+        height: 428
+      alignment: 9
+      pivot: {x: 0.63265306, y: 0.91121495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2796f19b767f659d0800000000000000
+      internalID: -2785767294622537358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0001_SpikeR-copy
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 5483
+        width: 539
+        height: 553
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,20 +1140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57dc9af42f63cd570800000000000000
-      internalID: 8492723411660426613
+      spriteID: 8ab46527a5e580190800000000000000
+      internalID: -7996037395837989976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy-Dellusion
+      name: Enemy-Chaos_0000s_0002_SpikeR
       rect:
         serializedVersion: 2
-        x: 1
-        y: 3633
-        width: 2090
-        height: 2278
+        x: 3270
+        y: 4929
+        width: 538
+        height: 552
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,20 +1161,230 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79541c5dc1205f080800000000000000
-      internalID: -9154408344692111977
+      spriteID: 844935c3411008f40800000000000000
+      internalID: 5728579912438355016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy-Infernal
+      name: Enemy-Chaos_0000s_0003_BicepL
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 668
+        width: 337
+        height: 347
+      alignment: 9
+      pivot: {x: 0.8338279, y: 0.71757925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc7ad217b659d1a0800000000000000
+      internalID: -6784296019361628939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0004_Head
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 2199
+        width: 312
+        height: 486
+      alignment: 9
+      pivot: {x: 0.50961536, y: 0.23251028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3842f839c094b2380800000000000000
+      internalID: -8995015512378366845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0005_Chest
       rect:
         serializedVersion: 2
         x: 1
-        y: 1353
-        width: 2090
-        height: 2278
+        y: 2205
+        width: 651
+        height: 481
+      alignment: 9
+      pivot: {x: 0.49615976, y: 0.4927235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800ccb662e6e80cf0800000000000000
+      internalID: -285724716277383160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0006_ArmR
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2255
+        width: 379
+        height: 431
+      alignment: 9
+      pivot: {x: 0.42216358, y: 0.8654292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c349d16d3d47a60800000000000000
+      internalID: 7670988981891513420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0007_Spike-Connector-R
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 6053
+        width: 124
+        height: 241
+      alignment: 9
+      pivot: {x: 0.23387097, y: 0.8381743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a204296cb7d32e190800000000000000
+      internalID: -7934711991651647446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0008_BicepR
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 69
+        width: 338
+        height: 347
+      alignment: 9
+      pivot: {x: 0.15088758, y: 0.7348703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c28bf6ba9d8a0c0800000000000000
+      internalID: -4564158892003021784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0009_BicepRConnnector
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 4814
+        width: 277
+        height: 183
+      alignment: 9
+      pivot: {x: 0.14079422, y: 0.7103825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b680e8f839fca3710800000000000000
+      internalID: 1673878444197152875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0010_ArmRConnnector
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1991
+        width: 195
+        height: 262
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.84732825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719c7355c23ddd850800000000000000
+      internalID: 6403506432552454423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0011_BicepLConnnector
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2020
+        width: 277
+        height: 183
+      alignment: 9
+      pivot: {x: 0.8303249, y: 0.7103825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c47c474cbd13d90800000000000000
+      internalID: -7119667899076752310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0012_ArmLConnnector
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1986
+        width: 134
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5895522, y: 0.82771534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8985112b9e4d9770800000000000000
+      internalID: 8619131690038954382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0013_Neck
+      rect:
+        serializedVersion: 2
+        x: 4057
+        y: 7614
+        width: 29
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,20 +1392,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9215b1553bb357f50800000000000000
-      internalID: 6878469647291339049
+      spriteID: 199acd20dd07f0f70800000000000000
+      internalID: 9155660662005606801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy-Void
+      name: Enemy-Chaos_0000s_0014_Neck-Connector-L
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 4504
+        width: 147
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dd1a72b1f446c60800000000000000
+      internalID: 7810454631814913288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0015_Spike-Connector-L
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 5802
+        width: 104
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273ebb022d48bd540800000000000000
+      internalID: 5033763046543844210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0016_Neck-Connector
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 4750
+        width: 148
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5de3b6934e360f60800000000000000
+      internalID: 8000150248082369883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0017_LowerTorso
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 4825
+        width: 366
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6c727db42820a00800000000000000
+      internalID: 721282152576567022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0018_UpperTorso
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 136
+        width: 350
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8593c1122d70ea0800000000000000
+      internalID: -5906521346623842143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0019_LegL
       rect:
         serializedVersion: 2
         x: 3845
-        y: 5913
-        width: 2090
-        height: 2278
+        y: 7068
+        width: 210
+        height: 609
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,8 +1518,1856 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08ed4b3d66a004110800000000000000
-      internalID: 1243004933909044864
+      spriteID: fc4657a514dcbaef0800000000000000
+      internalID: -95757286484122417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0020_ThighL
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 5444
+        width: 281
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ea7ef98f0a2cc50800000000000000
+      internalID: 6684081786666331745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0021_KneeL
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 6173
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df37ffd854ca2e80800000000000000
+      internalID: -8202527885308248105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0022_LegR
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 6457
+        width: 210
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdedc081cf79632b0800000000000000
+      internalID: -5605125577224954145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0023_ThighR
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 4999
+        width: 281
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143db6d12f6601e00800000000000000
+      internalID: 1013423106220086081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0024_KneeR
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 5889
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d56b34675d2f7610800000000000000
+      internalID: 1621064244243686867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0025_FootL
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 3032
+        width: 164
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dc89c2af0d5d3c0800000000000000
+      internalID: -4335329293365621428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Chaos_0000s_0026_FootR
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 2824
+        width: 164
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f37186c7933ad700800000000000000
+      internalID: 565821430151869431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0003_ArmL
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 3153
+        width: 392
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba844ccd1a6bf39a0800000000000000
+      internalID: -6251076951457118037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0004_SpikeR-copy
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 5483
+        width: 539
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325d78650853d7210800000000000000
+      internalID: 1332279890095363363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0005_SpikeR
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 4929
+        width: 538
+        height: 552
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6573636792859b0800000000000000
+      internalID: -5091273791049869599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0006_BicepL
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 668
+        width: 337
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab372632e3b9d0360800000000000000
+      internalID: 7137531675636036538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0007_Head
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 2199
+        width: 312
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b77c0323932bbde0800000000000000
+      internalID: -1316419351220553799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0008_Chest
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 418
+        width: 651
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458f565b1b3283350800000000000000
+      internalID: 5996582150003357780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0009_ArmR
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2255
+        width: 379
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b6a7ce9983fd370800000000000000
+      internalID: 8349454467916786573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0010_Spike-Connector-R
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 6053
+        width: 124
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046a327fbf1408960800000000000000
+      internalID: 7602148721440302656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0011_BicepR
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 69
+        width: 338
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3b9e1539a145ae0800000000000000
+      internalID: -1561593950753934415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0012_BicepRConnnector
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 4814
+        width: 277
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f30cecc21f0d6a0800000000000000
+      internalID: -6426371493508137160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0013_ArmRConnnector
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1991
+        width: 195
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28cdd503d784fa30800000000000000
+      internalID: 4248169688923490346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0014_BicepLConnnector
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2020
+        width: 277
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b3f82aed2628f90800000000000000
+      internalID: -6952886166357066977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0015_ArmLConnnector
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1986
+        width: 134
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fa78a2e282c7a00800000000000000
+      internalID: 755523016238542598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0016_Neck
+      rect:
+        serializedVersion: 2
+        x: 4057
+        y: 7614
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d92732d49f44b20800000000000000
+      internalID: 3117890951749737755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0017_Neck-Connector-L
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 4504
+        width: 147
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4124160b06dce2030800000000000000
+      internalID: 3471938177908949524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0018_Spike-Connector-L
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 5802
+        width: 104
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbe07dfc250bab80800000000000000
+      internalID: -8382600590631310405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0019_Neck-Connector
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 4750
+        width: 148
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5424121ea050116d0800000000000000
+      internalID: -3021628330704027067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0020_LowerTorso
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2054
+        width: 366
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6e219fbf9308110800000000000000
+      internalID: 1261071650042078880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0021_UpperTorso
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 136
+        width: 350
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9cc0da434da5ba0800000000000000
+      internalID: -6099329422613231182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0022_LegL
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 7068
+        width: 210
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee95414be1f9cbba0800000000000000
+      internalID: -6071803243383203346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0023_ThighL
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 5444
+        width: 281
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce84bfff3b0ce400800000000000000
+      internalID: 354670840156294861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0024_KneeL
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 6173
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3607800e623309480800000000000000
+      internalID: -8894553021996306333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0025_LegR
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 6457
+        width: 210
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa1809c861816c90800000000000000
+      internalID: -7178314044002526471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0026_ThighR
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 4999
+        width: 281
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea0a0c7f0789d1b0800000000000000
+      internalID: -5631321358474802458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0027_KneeR
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 5889
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758f7dac4d36005f0800000000000000
+      internalID: -792523768829839273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0028_FootL
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 3032
+        width: 164
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f12313c90bf952a0800000000000000
+      internalID: -6748086547291889159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Dellusion_0000s_0029_FootR
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 2824
+        width: 164
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21db252d85d8c610800000000000000
+      internalID: 1641796866367279405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0000_ArmL
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 3153
+        width: 392
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baad97bab2ea24990800000000000000
+      internalID: -7403163334859957589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0001_SpikeR-copy
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 5483
+        width: 539
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d12e0a267fc71320800000000000000
+      internalID: 2528717822210482649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0002_SpikeR
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 4929
+        width: 538
+        height: 552
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4533855578942b570800000000000000
+      internalID: 8480921893893321556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0003_BicepL
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 668
+        width: 337
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69507258ef2549ad0800000000000000
+      internalID: -2696439023778986602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0004_Head
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 2199
+        width: 312
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effbd128f49f935e0800000000000000
+      internalID: -1929236845470826498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0005_Chest
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1500
+        width: 651
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f11b1ddf68e259e0800000000000000
+      internalID: -1633988147633516046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0006_ArmR
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2255
+        width: 379
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a66251c7e5b40bb0800000000000000
+      internalID: -4970648081724709216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0007_Spike-Connector-R
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 6053
+        width: 124
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ef6287b6eafd9b0800000000000000
+      internalID: -5053128480285852125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0008_BicepR
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 69
+        width: 338
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0cb1311806693e0800000000000000
+      internalID: -2047342873105678160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0009_BicepRConnnector
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 4814
+        width: 277
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9876647c172c20940800000000000000
+      internalID: 5260981108652533641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0010_ArmRConnnector
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1991
+        width: 195
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdedf55b0dfa3af0800000000000000
+      internalID: -415741790449177155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0011_BicepLConnnector
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2020
+        width: 277
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23509af9c79b2e810800000000000000
+      internalID: 1793199546552616242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0012_ArmLConnnector
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1986
+        width: 134
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c861f7d18ae157fa0800000000000000
+      internalID: -5803698837398808948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0013_Neck
+      rect:
+        serializedVersion: 2
+        x: 4057
+        y: 7614
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47cae9abb8c2fc20800000000000000
+      internalID: 3238871790367983439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0014_Neck-Connector-L
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 4504
+        width: 147
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc797b2a9c823bf0800000000000000
+      internalID: -346059627571872568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0015_Spike-Connector-L
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 5802
+        width: 104
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2e8cb08122e1ac0800000000000000
+      internalID: -3882628342074514689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0016_Neck-Connector
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 4750
+        width: 148
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa6f307d6afc70b0800000000000000
+      internalID: -5729429277980529934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0017_LowerTorso
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 30
+        width: 366
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4170563b2b20ad770800000000000000
+      internalID: 8636218201973524244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0018_UpperTorso
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 136
+        width: 350
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9657b63de3f89cd50800000000000000
+      internalID: 6758090215843919209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0019_LegL
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 7068
+        width: 210
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65949d494bfb468d0800000000000000
+      internalID: -2853945481533765290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0020_ThighL
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 5444
+        width: 281
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a39e599776027ca0800000000000000
+      internalID: -6020742641096944731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0021_KneeL
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 6173
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def7f398b1c277190800000000000000
+      internalID: -7964848919203053587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0022_LegR
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 6457
+        width: 210
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cf6ccd51d940960800000000000000
+      internalID: 7567345991113178219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0023_ThighR
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 4999
+        width: 281
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff6cb14c86f79780800000000000000
+      internalID: -8676195074847248395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0024_KneeR
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 5889
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841928887c965ac50800000000000000
+      internalID: 6675858328356294984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0025_FootL
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 3032
+        width: 164
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca49cb3638165b60800000000000000
+      internalID: 7734396031265753805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Infernal_0026_FootR
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 2824
+        width: 164
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7b080756d7246b0800000000000000
+      internalID: -5313546735711111182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0000_ArmL
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 3153
+        width: 392
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10131220a78c3f10800000000000000
+      internalID: 2250823035614597151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0001_SpikeR-copy
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 5483
+        width: 539
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a239c2df487680ef0800000000000000
+      internalID: -141749567381269718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0002_SpikeR
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 4929
+        width: 538
+        height: 552
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7544f4edbcd094160800000000000000
+      internalID: 7010149464238146647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0003_BicepL
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 668
+        width: 337
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f24ac744ef67f60800000000000000
+      internalID: 8031886555564224257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0004_Head
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 2199
+        width: 312
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9af7aae9c239a460800000000000000
+      internalID: 7253384517663586972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0005_Chest
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1017
+        width: 651
+        height: 481
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644df0d8e6757eb00800000000000000
+      internalID: 857750386362012742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0006_ArmR
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 2255
+        width: 379
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da9e442d4b2d0ff0800000000000000
+      internalID: -68350809019082028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0007_Spike-Connector-R
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 6053
+        width: 124
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a2d887301b56aa0800000000000000
+      internalID: -6168329486148490744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0008_BicepR
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 69
+        width: 338
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574e5760de6a6cdc0800000000000000
+      internalID: -3619021713599765387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0009_BicepRConnnector
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 4814
+        width: 277
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7086088bf272c1c00800000000000000
+      internalID: 872615513715402759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0010_ArmRConnnector
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1991
+        width: 195
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf25a773b7069a90800000000000000
+      internalID: -7307644877974196291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0011_BicepLConnnector
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2020
+        width: 277
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c10a845304e87b0800000000000000
+      internalID: -5220164320479929234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0012_ArmLConnnector
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1986
+        width: 134
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869610b4ea0fc7710800000000000000
+      internalID: 1692492191357823336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0013_Neck
+      rect:
+        serializedVersion: 2
+        x: 4057
+        y: 7614
+        width: 29
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f8a34553094fc80800000000000000
+      internalID: -8289842455361450161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0014_Neck-Connector-L
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 4504
+        width: 147
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f672b1aec7bda9c0800000000000000
+      internalID: -3914270403011119375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0015_Spike-Connector-L
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 5802
+        width: 104
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05923fc54b74793c0800000000000000
+      internalID: -4352931674851169968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0016_Neck-Connector
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 4750
+        width: 148
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c9c0680d908be00800000000000000
+      internalID: 1060608503452572767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0017_LowerTorso
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 30
+        width: 366
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b52aa16b55b17c0800000000000000
+      internalID: -4099588795171448006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0018_UpperTorso
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 136
+        width: 350
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e109f4e876f4ac0800000000000000
+      internalID: -3868759693970104717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0019_LegL
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 7068
+        width: 210
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4c8e096bcb545c0800000000000000
+      internalID: -4231768782543469333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0020_ThighL
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 5444
+        width: 281
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b762be85abce1e0800000000000000
+      internalID: -2167152429606995142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0021_KneeL
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 6173
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50609ed217ae2310800000000000000
+      internalID: 1382225835134574687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0022_LegR
+      rect:
+        serializedVersion: 2
+        x: 3845
+        y: 6457
+        width: 210
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411f7d7a37b1881e0800000000000000
+      internalID: -2195474634791980780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0023_ThighR
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 4999
+        width: 281
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192b69f8622d8d230800000000000000
+      internalID: 3663909359925506705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0024_KneeR
+      rect:
+        serializedVersion: 2
+        x: 3813
+        y: 5889
+        width: 282
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc4c083ff2a446b0800000000000000
+      internalID: -5312942443349652266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0025_FootL
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 3032
+        width: 164
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83119cf15837fb680800000000000000
+      internalID: -8737137736474357448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy-Void_0000s_0026_FootR
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 2824
+        width: 164
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a3c74029c500c70800000000000000
+      internalID: 8935243442913294998
       vertices: []
       indices: 
       edges: []
@@ -478,8 +3376,8 @@ TextureImporter:
       name: Environment-Barrel
       rect:
         serializedVersion: 2
-        x: 2093
-        y: 2783
+        x: 1
+        y: 2688
         width: 1090
         height: 1080
       alignment: 0
@@ -499,13 +3397,13 @@ TextureImporter:
       name: Floor-Tileable
       rect:
         serializedVersion: 2
-        x: 5937
-        y: 5204
-        width: 1854
-        height: 1032
-      alignment: 9
-      pivot: {x: 0.50053936, y: 0.500969}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 1
+        y: 7111
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 480, y: 519, z: 480, w: 503}
       outline: []
       physicsShape: []
       tessellationDetail: -1
@@ -520,8 +3418,8 @@ TextureImporter:
       name: FuseBox
       rect:
         serializedVersion: 2
-        x: 3119
-        y: 5719
+        x: 3253
+        y: 2158
         width: 663
         height: 1080
       alignment: 0
@@ -538,11 +3436,32 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Gun
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 6038
+        width: 1892
+        height: 567
+      alignment: 9
+      pivot: {x: 0.5021142, y: 0.32804233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59080044942672080800000000000000
+      internalID: -9212286445950041963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Wall1Doors
       rect:
         serializedVersion: 2
         x: 1
-        y: 271
+        y: 4852
         width: 1778
         height: 1080
       alignment: 9
@@ -562,7 +3481,7 @@ TextureImporter:
       name: Wall1SidesDoors
       rect:
         serializedVersion: 2
-        x: 5937
+        x: 1923
         y: 7047
         width: 1920
         height: 361
@@ -583,7 +3502,7 @@ TextureImporter:
       name: Wall1SidesNoDoors
       rect:
         serializedVersion: 2
-        x: 5937
+        x: 1923
         y: 7410
         width: 1920
         height: 386
@@ -605,7 +3524,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 46
+        y: 6886
         width: 1920
         height: 223
       alignment: 9
@@ -625,8 +3544,8 @@ TextureImporter:
       name: Wall1TopsNoDoors
       rect:
         serializedVersion: 2
-        x: 5937
-        y: 6608
+        x: 1923
+        y: 6607
         width: 1920
         height: 217
       alignment: 0
@@ -646,8 +3565,8 @@ TextureImporter:
       name: Wall2SidesDoors
       rect:
         serializedVersion: 2
-        x: 5937
-        y: 6238
+        x: 1
+        y: 6296
         width: 1916
         height: 368
       alignment: 9
@@ -667,7 +3586,7 @@ TextureImporter:
       name: Wall2SidesNoDoors
       rect:
         serializedVersion: 2
-        x: 5937
+        x: 1923
         y: 7798
         width: 1920
         height: 393
@@ -689,7 +3608,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1923
-        y: 50
+        y: 6826
         width: 1920
         height: 219
       alignment: 9
@@ -709,8 +3628,8 @@ TextureImporter:
       name: Wall2TopsNoDoors
       rect:
         serializedVersion: 2
-        x: 5937
-        y: 6827
+        x: 1
+        y: 6666
         width: 1920
         height: 218
       alignment: 9

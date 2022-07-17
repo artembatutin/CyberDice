@@ -4,15 +4,95 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+
+    private int health = 3;
+
+    [SerializeField]
+    public SpriteRenderer[] srs;
+
+    public bool dying = false;
+    public float dyingTime = 0.1f;
+    public Vector3 scale;
+
+    public int dimension;
+
+    //private Color oldColor;
+    private bool srReset = false;
+    private float srDelay = 0f;
+
     private GameObject target;
     private bool goForPlayer;
     private GameObject player;
+
+    private void Start()
+    {
+        scale = transform.localScale;
+        if (Dice.instance)
+        {
+            target = Dice.instance.gameObject;
+        }
+        else
+        {
+            target = FindObjectOfType<Target>().gameObject;
+        }
+    }
+
+    public void Update()
+    {
+        if(dying)
+        {
+            dyingTime -= Time.deltaTime;
+            gameObject.transform.localScale = scale * dyingTime;
+            if(dyingTime < 0)
+            {
+                Destroy(gameObject);
+            }
+            return;
+        }
+        if(srReset)
+        {
+            srDelay -= Time.deltaTime;
+            if(srDelay < 0)
+            {
+                foreach (SpriteRenderer sr in srs)
+                {
+                    sr.material = Dice.instance.getDefaultMat();
+                }
+                srReset = false;
+            }
+        }
+    }
+
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if(dying)
+        {
+            Physics2D.IgnoreCollision(collision.collider, collision.otherCollider);
+            return;
+        }
         if (collision.transform.tag.Equals("Bullet"))
         {
-            //for now
-            Destroy(gameObject);
+            health--;
+
+            foreach (SpriteRenderer sr in srs)
+            {
+                sr.material = Dice.instance.getFlashMat();
+            }
+            srDelay = 0.2f;
+            srReset = true;
+
+            Bullet bullet = collision.transform.gameObject.GetComponent<Bullet>();
+
+            if(bullet.getDimension() == dimension)
+            {
+                health = -1;
+            }
+
+            if (health < 0)
+            {
+                dying = true;
+            }
         }
     }
 
@@ -30,10 +110,7 @@ public class Enemy : MonoBehaviour
             goForPlayer = false;
     }
 
-    private void Start()
-    {
-        target = FindObjectOfType<Target>().gameObject;
-    }
+
     void FixedUpdate()
     {
         if (!goForPlayer)

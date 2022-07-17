@@ -14,6 +14,9 @@ public class BulletImage : MonoBehaviour
     private int slot = 0;
     private bool negative = false;
 
+    private bool destroy = false;
+    private float destroyTime = 2f;
+
     private Vector3 destination;
 
     void Awake()
@@ -26,6 +29,14 @@ public class BulletImage : MonoBehaviour
     void Update()
     {
         transform.localPosition = Vector3.Lerp(transform.localPosition, destination, Time.deltaTime * 10f);
+        if(destroy)
+        {
+            destroyTime -= Time.deltaTime;
+            if(destroyTime < 0)
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 
     public void Hide()
@@ -36,6 +47,7 @@ public class BulletImage : MonoBehaviour
 
     public void Shoot()
     {
+        destroy = true;
         destination = new Vector3(destination.x, 100f, destination.z);
     }
 

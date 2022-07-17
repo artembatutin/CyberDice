@@ -80,9 +80,9 @@
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>16384</int>
+            <int>8192</int>
             <key>height</key>
-            <int>16384</int>
+            <int>8192</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
@@ -173,6 +173,29 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
+            <key type="filename">Marksman/Background.png</key>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0021_KneeL.png</key>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0024_KneeR.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0024_KneeL.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0027_KneeR.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0021_KneeL.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0024_KneeR.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0021_KneeL.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0024_KneeR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>71,71,141,141</rect>
+                <key>scale9Paddings</key>
+                <rect>71,71,141,141</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">Marksman/BloodyText.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
@@ -204,7 +227,6 @@
                 <false/>
             </struct>
             <key type="filename">Marksman/BulletArt.png</key>
-            <key type="filename">Marksman/Character.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -216,6 +238,246 @@
                 <rect>960,540,1920,1080</rect>
                 <key>scale9Paddings</key>
                 <rect>960,540,1920,1080</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0000_Head.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>57,69,113,137</rect>
+                <key>scale9Paddings</key>
+                <rect>57,69,113,137</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0001_BicepL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.744898,0.104575</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>49,115,98,229</rect>
+                <key>scale9Paddings</key>
+                <rect>49,115,98,229</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0002_Chest.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.535411,0.409619</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>88,151,177,301</rect>
+                <key>scale9Paddings</key>
+                <rect>88,151,177,301</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0003_BicepR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.214286,0.109677</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>46,116,91,233</rect>
+                <key>scale9Paddings</key>
+                <rect>46,116,91,233</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0004_ArmR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.307692,0.154882</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>39,74,78,149</rect>
+                <key>scale9Paddings</key>
+                <rect>39,74,78,149</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0005_HandR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.284672,0.0995851</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>34,60,69,121</rect>
+                <key>scale9Paddings</key>
+                <rect>34,60,69,121</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0006_ArmL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.730769,0.144781</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>39,74,78,149</rect>
+                <key>scale9Paddings</key>
+                <rect>39,74,78,149</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0007_CalfL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.625731,0.0750988</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>43,127,85,253</rect>
+                <key>scale9Paddings</key>
+                <rect>43,127,85,253</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0008_ThighL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.57868,0.0636704</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>49,134,99,267</rect>
+                <key>scale9Paddings</key>
+                <rect>49,134,99,267</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0009_ShoeR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.195455,0.186992</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>55,31,110,61</rect>
+                <key>scale9Paddings</key>
+                <rect>55,31,110,61</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0010_CalfR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.358621,0.0700389</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>36,129,73,257</rect>
+                <key>scale9Paddings</key>
+                <rect>36,129,73,257</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0011_ThighL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.363636,0.0568807</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>50,136,99,273</rect>
+                <key>scale9Paddings</key>
+                <rect>50,136,99,273</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0012_ShoeR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.221739,0.254545</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>58,28,115,55</rect>
+                <key>scale9Paddings</key>
+                <rect>58,28,115,55</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0013_HandL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.717391,0.124481</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>35,60,69,121</rect>
+                <key>scale9Paddings</key>
+                <rect>35,60,69,121</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0014_Neck.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>14,27,28,53</rect>
+                <key>scale9Paddings</key>
+                <rect>14,27,28,53</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Character_0015_Cape_Jacket.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>144,320,289,641</rect>
+                <key>scale9Paddings</key>
+                <rect>144,320,289,641</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -255,7 +517,7 @@
             <key type="filename">Marksman/DownlightBulb.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
+                <point_f>0.464072,0.0175926</point_f>
                 <key>spriteScale</key>
                 <double>1</double>
                 <key>scale9Enabled</key>
@@ -270,7 +532,7 @@
             <key type="filename">Marksman/DownlightChain.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
+                <point_f>0.424307,0.0259259</point_f>
                 <key>spriteScale</key>
                 <double>1</double>
                 <key>scale9Enabled</key>
@@ -282,10 +544,25 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
-            <key type="filename">Marksman/Enemy-Chaos.png</key>
-            <key type="filename">Marksman/Enemy-Dellusion.png</key>
-            <key type="filename">Marksman/Enemy-Infernal.png</key>
-            <key type="filename">Marksman/Enemy-Void.png</key>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0000_ArmL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.632653,0.088785</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>98,107,196,214</rect>
+                <key>scale9Paddings</key>
+                <rect>98,107,196,214</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0001_SpikeR-copy.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0004_SpikeR-copy.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0001_SpikeR-copy.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0001_SpikeR-copy.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -294,9 +571,524 @@
                 <key>scale9Enabled</key>
                 <false/>
                 <key>scale9Borders</key>
-                <rect>523,570,1045,1139</rect>
+                <rect>135,138,269,277</rect>
                 <key>scale9Paddings</key>
-                <rect>523,570,1045,1139</rect>
+                <rect>135,138,269,277</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0002_SpikeR.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0005_SpikeR.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0002_SpikeR.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0002_SpikeR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>135,138,269,276</rect>
+                <key>scale9Paddings</key>
+                <rect>135,138,269,276</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0003_BicepL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.833828,0.282421</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>84,87,169,173</rect>
+                <key>scale9Paddings</key>
+                <rect>84,87,169,173</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0004_Head.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.509615,0.76749</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>78,122,156,243</rect>
+                <key>scale9Paddings</key>
+                <rect>78,122,156,243</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0005_Chest.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.49616,0.507277</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>163,120,325,241</rect>
+                <key>scale9Paddings</key>
+                <rect>163,120,325,241</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0006_ArmR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.422164,0.134571</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>95,108,189,215</rect>
+                <key>scale9Paddings</key>
+                <rect>95,108,189,215</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0007_Spike-Connector-R.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.233871,0.161826</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>31,60,62,121</rect>
+                <key>scale9Paddings</key>
+                <rect>31,60,62,121</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0008_BicepR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.150888,0.26513</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>85,87,169,173</rect>
+                <key>scale9Paddings</key>
+                <rect>85,87,169,173</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0009_BicepRConnnector.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.140794,0.289617</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>69,46,139,91</rect>
+                <key>scale9Paddings</key>
+                <rect>69,46,139,91</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0010_ArmRConnnector.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.333333,0.152672</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>49,66,97,131</rect>
+                <key>scale9Paddings</key>
+                <rect>49,66,97,131</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0011_BicepLConnnector.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.830325,0.289617</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>69,46,139,91</rect>
+                <key>scale9Paddings</key>
+                <rect>69,46,139,91</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0012_ArmLConnnector.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.589552,0.172285</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>34,67,67,133</rect>
+                <key>scale9Paddings</key>
+                <rect>34,67,67,133</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0013_Neck.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0016_Neck.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0013_Neck.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0013_Neck.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>7,16,15,31</rect>
+                <key>scale9Paddings</key>
+                <rect>7,16,15,31</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0014_Neck-Connector-L.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0017_Neck-Connector-L.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0014_Neck-Connector-L.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0014_Neck-Connector-L.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>37,61,73,122</rect>
+                <key>scale9Paddings</key>
+                <rect>37,61,73,122</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0015_Spike-Connector-L.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0018_Spike-Connector-L.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0015_Spike-Connector-L.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0015_Spike-Connector-L.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>26,62,52,125</rect>
+                <key>scale9Paddings</key>
+                <rect>26,62,52,125</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0016_Neck-Connector.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0019_Neck-Connector.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0016_Neck-Connector.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0016_Neck-Connector.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>37,61,74,122</rect>
+                <key>scale9Paddings</key>
+                <rect>37,61,74,122</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0017_LowerTorso.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0020_LowerTorso.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0017_LowerTorso.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0017_LowerTorso.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>92,26,183,51</rect>
+                <key>scale9Paddings</key>
+                <rect>92,26,183,51</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0018_UpperTorso.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0021_UpperTorso.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0018_UpperTorso.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0018_UpperTorso.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>88,70,175,140</rect>
+                <key>scale9Paddings</key>
+                <rect>88,70,175,140</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0019_LegL.png</key>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0022_LegR.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0022_LegL.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0025_LegR.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0019_LegL.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0022_LegR.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0019_LegL.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0022_LegR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>53,152,105,305</rect>
+                <key>scale9Paddings</key>
+                <rect>53,152,105,305</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0020_ThighL.png</key>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0023_ThighR.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0023_ThighL.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0026_ThighR.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0020_ThighL.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0023_ThighR.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0020_ThighL.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0023_ThighR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>70,111,141,221</rect>
+                <key>scale9Paddings</key>
+                <rect>70,111,141,221</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0025_FootL.png</key>
+            <key type="filename">Marksman/Enemy-Chaos_0000s_0026_FootR.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0028_FootL.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0029_FootR.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0025_FootL.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0026_FootR.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0025_FootL.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0026_FootR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>41,52,82,103</rect>
+                <key>scale9Paddings</key>
+                <rect>41,52,82,103</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0003_ArmL.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0000_ArmL.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0000_ArmL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>98,107,196,214</rect>
+                <key>scale9Paddings</key>
+                <rect>98,107,196,214</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0006_BicepL.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0003_BicepL.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0003_BicepL.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>84,87,169,173</rect>
+                <key>scale9Paddings</key>
+                <rect>84,87,169,173</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0007_Head.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0004_Head.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0004_Head.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>78,122,156,243</rect>
+                <key>scale9Paddings</key>
+                <rect>78,122,156,243</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0008_Chest.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0005_Chest.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0005_Chest.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>163,120,325,241</rect>
+                <key>scale9Paddings</key>
+                <rect>163,120,325,241</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0009_ArmR.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0006_ArmR.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0006_ArmR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>95,108,189,215</rect>
+                <key>scale9Paddings</key>
+                <rect>95,108,189,215</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0010_Spike-Connector-R.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0007_Spike-Connector-R.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0007_Spike-Connector-R.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>31,60,62,121</rect>
+                <key>scale9Paddings</key>
+                <rect>31,60,62,121</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0011_BicepR.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0008_BicepR.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0008_BicepR.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>85,87,169,173</rect>
+                <key>scale9Paddings</key>
+                <rect>85,87,169,173</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0012_BicepRConnnector.png</key>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0014_BicepLConnnector.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0009_BicepRConnnector.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0011_BicepLConnnector.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0009_BicepRConnnector.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0011_BicepLConnnector.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>69,46,139,91</rect>
+                <key>scale9Paddings</key>
+                <rect>69,46,139,91</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0013_ArmRConnnector.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0010_ArmRConnnector.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0010_ArmRConnnector.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>49,66,97,131</rect>
+                <key>scale9Paddings</key>
+                <rect>49,66,97,131</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Enemy-Dellusion_0000s_0015_ArmLConnnector.png</key>
+            <key type="filename">Marksman/Enemy-Infernal_0012_ArmLConnnector.png</key>
+            <key type="filename">Marksman/Enemy-Void_0000s_0012_ArmLConnnector.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>34,67,67,133</rect>
+                <key>scale9Paddings</key>
+                <rect>34,67,67,133</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -316,6 +1108,50 @@
                 <false/>
             </struct>
             <key type="filename">Marksman/Floor-Tileable.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <true/>
+                <key>scale9Borders</key>
+                <rect>480,503,960,58</rect>
+                <key>scale9Paddings</key>
+                <rect>480,270,960,540</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/FuseBox.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>166,270,331,540</rect>
+                <key>scale9Paddings</key>
+                <rect>166,270,331,540</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">Marksman/Gun.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>480,480,960,960</rect>
+                <key>scale9Paddings</key>
+                <rect>480,480,960,960</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">Marksman/Wall1Doors.png</key>
             <key type="filename">Marksman/Wall1SidesDoors.png</key>
             <key type="filename">Marksman/Wall1TopsDoors.png</key>
@@ -334,21 +1170,6 @@
                 <rect>480,270,960,540</rect>
                 <key>scale9Paddings</key>
                 <rect>480,270,960,540</rect>
-                <key>scale9FromFile</key>
-                <false/>
-            </struct>
-            <key type="filename">Marksman/FuseBox.png</key>
-            <struct type="IndividualSpriteSettings">
-                <key>pivotPoint</key>
-                <point_f>0.5,0.5</point_f>
-                <key>spriteScale</key>
-                <double>1</double>
-                <key>scale9Enabled</key>
-                <false/>
-                <key>scale9Borders</key>
-                <rect>166,270,331,540</rect>
-                <key>scale9Paddings</key>
-                <rect>166,270,331,540</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -388,13 +1209,9 @@
             <filename>Marksman/BloodyText.png</filename>
             <filename>Marksman/Bulb.png</filename>
             <filename>Marksman/BulletArt.png</filename>
-            <filename>Marksman/Character.png</filename>
             <filename>Marksman/Crates.png</filename>
             <filename>Marksman/DownlightBulb.png</filename>
             <filename>Marksman/DownlightChain.png</filename>
-            <filename>Marksman/Enemy-Chaos.png</filename>
-            <filename>Marksman/Enemy-Dellusion.png</filename>
-            <filename>Marksman/Enemy-Void.png</filename>
             <filename>Marksman/Environment-Barrel.png</filename>
             <filename>Marksman/Floor-Tileable.png</filename>
             <filename>Marksman/FuseBox.png</filename>
@@ -411,7 +1228,132 @@
             <filename>Marksman/Dice-Delusion.png</filename>
             <filename>Marksman/Dice-Infernal.png</filename>
             <filename>Marksman/Dice-Void.png</filename>
-            <filename>Marksman/Enemy-Infernal.png</filename>
+            <filename>Marksman/Character_0000_Head.png</filename>
+            <filename>Marksman/Character_0001_BicepL.png</filename>
+            <filename>Marksman/Character_0002_Chest.png</filename>
+            <filename>Marksman/Character_0003_BicepR.png</filename>
+            <filename>Marksman/Character_0004_ArmR.png</filename>
+            <filename>Marksman/Character_0005_HandR.png</filename>
+            <filename>Marksman/Character_0006_ArmL.png</filename>
+            <filename>Marksman/Character_0007_CalfL.png</filename>
+            <filename>Marksman/Character_0008_ThighL.png</filename>
+            <filename>Marksman/Character_0009_ShoeR.png</filename>
+            <filename>Marksman/Character_0010_CalfR.png</filename>
+            <filename>Marksman/Character_0011_ThighL.png</filename>
+            <filename>Marksman/Character_0012_ShoeR.png</filename>
+            <filename>Marksman/Character_0013_HandL.png</filename>
+            <filename>Marksman/Character_0014_Neck.png</filename>
+            <filename>Marksman/Character_0015_Cape_Jacket.png</filename>
+            <filename>Marksman/Enemy-Infernal_0000_ArmL.png</filename>
+            <filename>Marksman/Enemy-Infernal_0001_SpikeR-copy.png</filename>
+            <filename>Marksman/Enemy-Infernal_0002_SpikeR.png</filename>
+            <filename>Marksman/Enemy-Infernal_0003_BicepL.png</filename>
+            <filename>Marksman/Enemy-Infernal_0004_Head.png</filename>
+            <filename>Marksman/Enemy-Infernal_0005_Chest.png</filename>
+            <filename>Marksman/Enemy-Infernal_0006_ArmR.png</filename>
+            <filename>Marksman/Enemy-Infernal_0007_Spike-Connector-R.png</filename>
+            <filename>Marksman/Enemy-Infernal_0008_BicepR.png</filename>
+            <filename>Marksman/Enemy-Infernal_0009_BicepRConnnector.png</filename>
+            <filename>Marksman/Enemy-Infernal_0010_ArmRConnnector.png</filename>
+            <filename>Marksman/Enemy-Infernal_0011_BicepLConnnector.png</filename>
+            <filename>Marksman/Enemy-Infernal_0012_ArmLConnnector.png</filename>
+            <filename>Marksman/Enemy-Infernal_0013_Neck.png</filename>
+            <filename>Marksman/Enemy-Infernal_0014_Neck-Connector-L.png</filename>
+            <filename>Marksman/Enemy-Infernal_0015_Spike-Connector-L.png</filename>
+            <filename>Marksman/Enemy-Infernal_0016_Neck-Connector.png</filename>
+            <filename>Marksman/Enemy-Infernal_0017_LowerTorso.png</filename>
+            <filename>Marksman/Enemy-Infernal_0018_UpperTorso.png</filename>
+            <filename>Marksman/Enemy-Infernal_0019_LegL.png</filename>
+            <filename>Marksman/Enemy-Infernal_0020_ThighL.png</filename>
+            <filename>Marksman/Enemy-Infernal_0021_KneeL.png</filename>
+            <filename>Marksman/Enemy-Infernal_0022_LegR.png</filename>
+            <filename>Marksman/Enemy-Infernal_0023_ThighR.png</filename>
+            <filename>Marksman/Enemy-Infernal_0024_KneeR.png</filename>
+            <filename>Marksman/Enemy-Infernal_0025_FootL.png</filename>
+            <filename>Marksman/Enemy-Infernal_0026_FootR.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0003_ArmL.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0004_SpikeR-copy.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0005_SpikeR.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0006_BicepL.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0007_Head.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0008_Chest.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0009_ArmR.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0010_Spike-Connector-R.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0011_BicepR.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0012_BicepRConnnector.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0013_ArmRConnnector.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0014_BicepLConnnector.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0015_ArmLConnnector.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0016_Neck.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0017_Neck-Connector-L.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0018_Spike-Connector-L.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0019_Neck-Connector.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0020_LowerTorso.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0021_UpperTorso.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0022_LegL.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0023_ThighL.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0024_KneeL.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0025_LegR.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0026_ThighR.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0027_KneeR.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0028_FootL.png</filename>
+            <filename>Marksman/Enemy-Dellusion_0000s_0029_FootR.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0000_ArmL.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0001_SpikeR-copy.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0002_SpikeR.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0003_BicepL.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0004_Head.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0005_Chest.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0006_ArmR.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0007_Spike-Connector-R.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0008_BicepR.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0009_BicepRConnnector.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0010_ArmRConnnector.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0011_BicepLConnnector.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0012_ArmLConnnector.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0013_Neck.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0014_Neck-Connector-L.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0015_Spike-Connector-L.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0016_Neck-Connector.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0017_LowerTorso.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0018_UpperTorso.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0019_LegL.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0020_ThighL.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0021_KneeL.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0022_LegR.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0023_ThighR.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0024_KneeR.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0025_FootL.png</filename>
+            <filename>Marksman/Enemy-Chaos_0000s_0026_FootR.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0000_ArmL.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0001_SpikeR-copy.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0002_SpikeR.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0003_BicepL.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0004_Head.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0005_Chest.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0006_ArmR.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0007_Spike-Connector-R.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0008_BicepR.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0009_BicepRConnnector.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0010_ArmRConnnector.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0011_BicepLConnnector.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0012_ArmLConnnector.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0013_Neck.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0014_Neck-Connector-L.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0015_Spike-Connector-L.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0016_Neck-Connector.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0017_LowerTorso.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0018_UpperTorso.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0019_LegL.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0020_ThighL.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0021_KneeL.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0022_LegR.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0023_ThighR.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0024_KneeR.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0025_FootL.png</filename>
+            <filename>Marksman/Enemy-Void_0000s_0026_FootR.png</filename>
+            <filename>Marksman/Gun.png</filename>
+            <filename>Marksman/Background.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

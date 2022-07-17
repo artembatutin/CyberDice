@@ -38,14 +38,23 @@ public class BulletChamber : MonoBehaviour
 
     void Update()
     {
-        if (started && magSize < 11)
+        if (started && magSize < 10)
         {
             reloadDelay -= Time.deltaTime;
             if(reloadDelay < 0)
             {
                 magSize++;
-                //StartCoroutine(AddBullet(transform, bullet, goneBullets.Count > 0 ? goneBullets.Dequeue() : null));
-                StartCoroutine(AddBullet(transform, bullet, null));
+
+                GameObject b = Instantiate(bullet, transform);
+                BulletImage image = b.GetComponent<BulletImage>();
+
+                b.transform.localPosition = bullet.transform.localPosition;
+                b.transform.localRotation = bullet.transform.localRotation;
+                b.transform.localScale = bullet.transform.localScale;
+
+                image.Refill();
+
+                StartCoroutine(AddBullet(image));
                 reloadDelay = reloadTime;
             }
         }
@@ -63,63 +72,23 @@ public class BulletChamber : MonoBehaviour
             return -1;
         }
 
-        BulletImage child = bullet.getParent();
-        if (child != null)
-        {
-            while ((child = child.getParent()) != null)
-            {
-                if (child)
-                {
-                    child.Shift();
-                }
-                else
-                {
-                    break;
-                }
-            }
-        }
         magSize--;
         bullet.Shoot();
-        StartCoroutine(ResetBullet(bullet));
         return bullet.getDimension();
     }
 
-    private IEnumerator ResetBullet(BulletImage bullet)
-    {
-        bullet.setParent(null);
-        yield return new WaitForSeconds(1f);
-        bullet.Move(10, isLeft);
-        yield return new WaitForSeconds(1f);
-        //goneBullets.Enqueue(bullet);
-    }
 
-
-    private IEnumerator AddBullet(Transform t, GameObject bullet, BulletImage recyle = null)
+    private IEnumerator AddBullet(BulletImage image)
     {
+        yield return new WaitForSeconds(reloadTime / 10f);
+
         Color[] colors = Dice.instance.getColors();
-        GameObject b; BulletImage image;
-
-        if (!recyle)
-        {
-            b = Instantiate(bullet, t);
-            image = b.GetComponent<BulletImage>();
-        } else {
-            b = recyle.gameObject;
-            image = recyle;
-        }
-
-        b.transform.localPosition = bullet.transform.localPosition;
-        b.transform.localRotation = bullet.transform.localRotation;
-        b.transform.localScale = bullet.transform.localScale;
-
-        image.Refill();
-        yield return new WaitForSeconds(1f);
-
         int cycles = Random.Range(15, 30);
         int c = 1;
+
         for (int cycle = 0; cycle < Random.Range(10, 20); cycle++) {
             image.SetColor(colors[c]);
-            yield return new WaitForSecondsRealtime(3f/cycles);
+            yield return new WaitForSecondsRealtime((reloadTime / 10f) /cycles);
             c++;
             if(c > colors.Length - 1)
             {
@@ -130,13 +99,12 @@ public class BulletChamber : MonoBehaviour
         int dimensionRoll = Random.Range(0, colors.Length - 2);
         image.SetColor(colors[dimensionRoll + 1]);
         image.setDimension(dimensionRoll);
+
+        yield return new WaitForSeconds(reloadTime / 10f);
+
         image.Move(magSize, isLeft);
         bullets.Enqueue(image);
-        if(lastSpawnBullet)
-        {
-            image.setParent(lastSpawnBullet);
-        }
-        lastSpawnBullet = image;
+
     }
 
     private IEnumerator StartRound(BulletImage image)

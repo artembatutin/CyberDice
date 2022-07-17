@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
@@ -9,13 +10,12 @@ public class Dice : MonoBehaviour
 
     public static Dice instance;
 
-    private const float MIN_TIMER = 5f;
-    private const float MAX_TIMER = 10f;
+    private const float MIN_TIMER = 10f;
+    private const float MAX_TIMER = 20f;
 
-    private const int CYCLES = 3;
+    private const int CYCLES = 15;
     private const float DELAY_CYCLES = 0.2f;
 
-    private float[] DIMENSION_HUES = { 4f, 2f, 1f };
 
     [SerializeField]
     public Sprite[] dicesImages;
@@ -28,6 +28,13 @@ public class Dice : MonoBehaviour
 
     [SerializeField]
     public Volume volume;
+
+    [SerializeField]
+    private Material defaultMat;
+    [SerializeField]
+    private Material flashMat;
+
+    private Light2D light;
 
 
     private SpriteRenderer sr;
@@ -44,6 +51,7 @@ public class Dice : MonoBehaviour
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        light = GetComponent<Light2D>();
     }
 
     void Update()
@@ -79,8 +87,8 @@ public class Dice : MonoBehaviour
     {
         for (int cycle = 0; cycle < CYCLES; cycle++)
         {
-            int random = Random.Range(0, colors.Length - 1);
-            sr.color = colors[random];
+            int random = Random.Range(1, colors.Length - 1);
+            sr.sprite = dicesImages[random];
             yield return new WaitForSeconds(DELAY_CYCLES);
         }
 
@@ -96,11 +104,13 @@ public class Dice : MonoBehaviour
     public void changeDimension(int dimension)
     {
 
-        sr.color = colors[dimension+1];
+        //sr.color = colors[dimension+1];
 
         VolumeProfile profile = profiles[dimension+1];
+        light.color = Color.Lerp(light.color, colors[dimension+1], 1f);
+        sr.sprite = dicesImages[dimension+1];
 
-        if(profile)
+        if (profile)
         {
             volume.profile = profile;
         }
@@ -174,5 +184,15 @@ public class Dice : MonoBehaviour
     public Color getColor(int dimension)
     {
         return this.colors[dimension + 1];
+    }
+
+    public Material getDefaultMat()
+    {
+        return this.defaultMat;
+    }
+
+    public Material getFlashMat()
+    {
+        return this.flashMat;
     }
 }
