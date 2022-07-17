@@ -99,6 +99,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5818c78e5ee354eea8ea926bba35fe20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  torsoEnemy:
+  - {fileID: -1633988147633516046, guid: 95e4499680e314bdcbb4a8247697f218, type: 3}
+  - {fileID: 5996582150003357780, guid: 95e4499680e314bdcbb4a8247697f218, type: 3}
+  - {fileID: -285724716277383160, guid: 95e4499680e314bdcbb4a8247697f218, type: 3}
+  - {fileID: 857750386362012742, guid: 95e4499680e314bdcbb4a8247697f218, type: 3}
   dicesImages:
   - {fileID: 8929051435696730585, guid: 95e4499680e314bdcbb4a8247697f218, type: 3}
   - {fileID: 17362033993073439, guid: 95e4499680e314bdcbb4a8247697f218, type: 3}
@@ -118,6 +123,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f7fd3b3c59af7414cac97c8319f335e4, type: 2}
   - {fileID: 11400000, guid: 21d41b0551dd74841bc69d9e08715fea, type: 2}
   volume: {fileID: 0}
+  defaultMat: {fileID: 2100000, guid: f32f9ccf211dc4a8f90d683e97e9824b, type: 2}
+  flashMat: {fileID: 2100000, guid: bbbfe9dc08aca47dfbeac95c349f7cff, type: 2}
+  shootClip: {fileID: 8300000, guid: f738516c51dd24b4f96c1bcbbaed25e8, type: 3}
 --- !u!114 &5684849705927956696
 MonoBehaviour:
   m_ObjectHideFlags: 0

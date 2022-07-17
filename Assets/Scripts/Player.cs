@@ -5,6 +5,10 @@ using Cinemachine;
 public class Player : MonoBehaviour
 {
 
+    public static Player player;
+
+    public int health = 30;
+
     public const float SHOT_DELAY = 0.3f;
 
     public Transform shootPoint;
@@ -37,10 +41,10 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        player = this;
         anim = GetComponent<Animator>();
         gun = GetComponent<GunClass>();
         rb = GetComponent<Rigidbody2D>();
-
         rb.fixedAngle = true;//idk if deprecated :D
     }
     private void Update()
@@ -130,6 +134,15 @@ public class Player : MonoBehaviour
             transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
             rotateTrans.localScale = new Vector3(-rotateTrans.localScale.x, rotateTrans.localScale.y, rotateTrans.localScale.z);
             this.flipped = flipped;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.tag.Equals("Spike"))
+        {
+            health--;
+            Debug.Log(health);
         }
     }
 }

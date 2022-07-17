@@ -16,6 +16,8 @@ public class Dice : MonoBehaviour
     private const int CYCLES = 15;
     private const float DELAY_CYCLES = 0.2f;
 
+    [SerializeField]
+    public Sprite[] torsoEnemy;
 
     [SerializeField]
     public Sprite[] dicesImages;
@@ -33,6 +35,12 @@ public class Dice : MonoBehaviour
     private Material defaultMat;
     [SerializeField]
     private Material flashMat;
+
+
+    [SerializeField]
+    public AudioClip shootClip;
+    [SerializeField]
+    public AudioClip enemyHitClip;
 
     private Light2D light;
 
@@ -89,6 +97,7 @@ public class Dice : MonoBehaviour
         {
             int random = Random.Range(1, colors.Length - 1);
             sr.sprite = dicesImages[random];
+            sr.gameObject.transform.Rotate(0, 0, Random.Range(10, 20));
             yield return new WaitForSeconds(DELAY_CYCLES);
         }
 
@@ -186,6 +195,11 @@ public class Dice : MonoBehaviour
         return this.colors[dimension + 1];
     }
 
+    public Sprite getTorso(int dimension)
+    {
+        return this.torsoEnemy[dimension];
+    }
+
     public Material getDefaultMat()
     {
         return this.defaultMat;
@@ -194,5 +208,10 @@ public class Dice : MonoBehaviour
     public Material getFlashMat()
     {
         return this.flashMat;
+    }
+
+    public int getDimension()
+    {
+        return this.currentDimension;
     }
 }

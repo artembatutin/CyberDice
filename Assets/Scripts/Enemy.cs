@@ -8,7 +8,13 @@ public class Enemy : MonoBehaviour
     private int health = 3;
 
     [SerializeField]
+    private SpriteRenderer torso;
+
+    [SerializeField]
     public SpriteRenderer[] srs;
+
+    private Animator anim;
+    private AudioSource source;
 
     public bool dying = false;
     public float dyingTime = 0.1f;
@@ -24,8 +30,13 @@ public class Enemy : MonoBehaviour
     private bool goForPlayer;
     private GameObject player;
 
+    private Vector3 aim;
+
+
     private void Start()
     {
+        anim = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
         scale = transform.localScale;
         if (Dice.instance)
         {
@@ -35,6 +46,9 @@ public class Enemy : MonoBehaviour
         {
             target = FindObjectOfType<Target>().gameObject;
         }
+
+        //torso.sprite = Dice.instance.getTorso(dimension);
+        
     }
 
     public void Update()
@@ -61,6 +75,7 @@ public class Enemy : MonoBehaviour
                 srReset = false;
             }
         }
+
     }
 
 
@@ -74,6 +89,7 @@ public class Enemy : MonoBehaviour
         if (collision.transform.tag.Equals("Bullet"))
         {
             health--;
+            source.PlayOneShot(Dice.instance.enemyHitClip);
 
             foreach (SpriteRenderer sr in srs)
             {
@@ -84,7 +100,7 @@ public class Enemy : MonoBehaviour
 
             Bullet bullet = collision.transform.gameObject.GetComponent<Bullet>();
 
-            if(bullet.getDimension() == dimension)
+            if(bullet.getDimension() == dimension || Dice.instance.getDimension() == dimension)
             {
                 health = -1;
             }
@@ -115,6 +131,7 @@ public class Enemy : MonoBehaviour
     {
         if (!goForPlayer)
         {
+            aim = target.transform.position;
             if (transform.position.x > target.transform.position.x)
             {
                 transform.position -= new Vector3(0.025f, 0);
@@ -134,21 +151,35 @@ public class Enemy : MonoBehaviour
         }
         else if (goForPlayer)
         {
+            aim = player.transform.position;
             if (transform.position.x > player.transform.position.x)
             {
-                transform.position -= new Vector3(0.025f, 0);
+                transform.position -= new Vector3(0.06f, 0);
             }
             if (transform.position.x < player.transform.position.x)
             {
-                transform.position += new Vector3(0.025f, 0);
+                transform.position += new Vector3(0.06f, 0);
             }
             if (transform.position.y > player.transform.position.y)
             {
-                transform.position -= new Vector3(0, 0.025f);
+                transform.position -= new Vector3(0, 0.06f);
             }
             if (transform.position.y < player.transform.position.y)
             {
-                transform.position += new Vector3(0, 0.025f);
+                transform.position += new Vector3(0, 0.06f);
+            }
+        }
+
+        if (aim != null)
+        {
+            float dist = Vector3.Distance(transform.position, aim);
+            if (dist < 10f)
+            {
+                anim.SetBool("attacking", true);
+            }
+            else
+            {
+                anim.SetBool("attacking", false);
             }
         }
     }
